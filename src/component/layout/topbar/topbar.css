@@ -1,0 +1,17 @@
+.top-bar-widget {
+    width: 100%;
+    background-color: #0e0e0e;
+    color: #b2b2b2;
+    position: relative;
+    /* font-weight: 500; */
+    height: 5px;
+    z-index: 111;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+}
+.top_bar_font {
+    color: #b2b2b2;
+}
+.social-icon {
+    margin-top: 22px;
+}
