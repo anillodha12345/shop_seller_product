@@ -9,7 +9,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const TopBar = () => {
   return (
     <>
-    <div className="banner_wrapper">
+    <div className="banner_wrapper bg-black">
       <div className="container-fluid bg-black">
         <div className="row " style={{height:"45px"}}>
           <div className="col-lg-6">

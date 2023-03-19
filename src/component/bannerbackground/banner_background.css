@@ -1,0 +1,10 @@
+.background_wrapper{
+    background-image: url('../../assets/images/backgroundimage1.jpg');
+    position: relative; 
+    font-family: "HelveticaNeueLTProBlkCn";
+    background-color:rgb(33,27,78);
+    background-position: 0 0px,100% 0,top right ;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 100%,55%;
+    background-color: #1e1a40;
+  }

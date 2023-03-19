@@ -52,6 +52,7 @@ const Headers = () => {
   }, [total]);
 
   return (
+    <div className="wrapper_header">
     <Navbar bg="light" expand="lg">
       <Container fluid  >
         <Navbar.Brand href="/" className="text-black fs-3 "
@@ -225,6 +226,7 @@ const Headers = () => {
         )}
       </Menu>
     </Navbar>
+    </div>
   );
 };
 

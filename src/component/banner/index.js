@@ -9,6 +9,7 @@ import 'animate.css';
 function Banner() {
   return (
     <>
+    <div className="banner_wrapper">
       <Carousel>
         <Carousel.Item>
           <img
@@ -19,7 +20,7 @@ function Banner() {
             alt="First slide"
           />
 
-          <Carousel.Caption className="">
+          <Carousel.Caption>
             <div className="container mb-5">
               <div className="row pb-5">
                 <div className="text-start">
@@ -249,6 +250,7 @@ function Banner() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </div>
     </>
   );
 }
