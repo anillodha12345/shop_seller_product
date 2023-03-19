@@ -12,10 +12,10 @@ import card8 from "../../assets/images/bestsellersimage8.jpg"
   return (
 <>
 <div className='wrapper_sellers '>
-    <div className='container'>
+    <div className='container mt-5 mb-3'>
         <div className='row'>
-            <div>
-                 <p className='text-center text-black'>Best sellers</p>
+            <div className='pb-5'>
+                 <h6 className='text-center text-black'>Best Sellers</h6>
                  <h3 className='text-center text-black'>Browse Through Our Best Selleres</h3>
             </div>
          </div>

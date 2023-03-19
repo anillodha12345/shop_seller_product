@@ -5,6 +5,8 @@ import Footer from '../../component/layout/footer'
 import BannerCard from '../../component/banner-card'
 import BannerBackground from '../../component/bannerbackground'
 import BestSellers from '../../component/bestsellers'
+import FreeShipping from '../../component/free-shipping'
+import FeaturedSaleTrend from '../../component/featured_sale_trend'
 
 
 
@@ -17,6 +19,8 @@ import BestSellers from '../../component/bestsellers'
   <Sliders/>
 <BannerBackground/>
 <BestSellers/>
+<FreeShipping/>
+<FeaturedSaleTrend/>
   <Footer/>
 
 
