@@ -68,7 +68,7 @@ const TopBar = () => {
           <div className="col-lg-6 d-flex">
             <div className="col-lg-9">
               <ul className="d-flex justify-content-end  list-unstyled ">
-                <li className=" d-flex align-items-end pt-3 ">
+                <li className=" d-flex align-items-end  ">
                   <a
                     href="/"
                     className=" top-bar-widget text-decoration-none mx-5 pt-2 "
@@ -76,7 +76,7 @@ const TopBar = () => {
                     My Account <span>&nbsp;&nbsp;&nbsp;&nbsp; | </span>
                   </a>
                 </li>
-                <li className=" d-flex align-items-end pt-3">
+                <li className=" d-flex align-items-end ">
                   <a
                     href="/"
                     className="top-bar-widget  text-decoration-none pt-2 "
@@ -90,22 +90,22 @@ const TopBar = () => {
 
             <div className="col-lg-3">
               <ul className="d-flex justify-content-start list-unstyled">
-                <li className="pt-1">
+                <li >
                   <a href="/" className="text-white mx-2   ">
                     <FaFacebookF size="12" className="social-icon" />
                   </a>
                 </li>
-                <li className="pt-1">
+                <li >
                   <a href="/" className="text-white mx-2  ">
                     <AiOutlineTwitter size="12" className="social-icon" />
                   </a>
                 </li>
-                <li className="pt-1">
+                <li >
                   <a href="/" className="text-white mx-2 ">
                     <AiOutlineCamera size="12" className="social-icon" />
                   </a>
                 </li>
-                <li className="pt-1">
+                <li >
                   <a href="/" className="text-white mx-2 ">
                     <AiOutlineInstagram size="12" className="social-icon" />
                   </a>

@@ -6,7 +6,8 @@ import BannerCard from '../../component/banner-card'
 import BannerBackground from '../../component/bannerbackground'
 import BestSellers from '../../component/bestsellers'
 import FreeShipping from '../../component/free-shipping'
-import FeaturedSaleTrend from '../../component/featured_sale_trend'
+import TopStories from '../../component/topstories'
+
 
 
 
@@ -20,7 +21,8 @@ import FeaturedSaleTrend from '../../component/featured_sale_trend'
 <BannerBackground/>
 <BestSellers/>
 <FreeShipping/>
-<FeaturedSaleTrend/>
+<TopStories/>
+
   <Footer/>
 
 

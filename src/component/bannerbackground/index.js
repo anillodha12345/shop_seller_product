@@ -5,14 +5,28 @@ const BannerBackground  = () => {
   return (
    <>
    <div className='background_wrapper'>
-    <div className='container pb-5 pt-5'>
-        <div className='row pb-3'>
+    <div className='container pb-2 pt-5'>
+        <div className='row pt-5  '>
             <div className='background_banner_heading' >
-                <h1 className='text-white' style={{fontSize: "58px", letterspacing: "-1px",marginBottom: "6px",lineHeight: "60px",
-        fontWeight:"600px",textTransform:"capitalize",textAlign:"center"
-        }}>Shop Limited Edition.</h1></div>
+        
+         <h2 className=" mt-3  text-center text-white"
+          style={{
+            fontSize: "60px",
+            letterspacing: "-2px",
+            marginBottom: "6px",
+            lineHeight: "83px",
+            fontFamily: "system-ui",
+            fontWeight:"600px",
+            lineheight: "60px"
+          }}
+         >
+                     
+                        Shop Limited Edition.
+                      
+                    </h2>
         </div>
-        <div className='row'>
+        </div>
+        <div className='row mt-3'>
             <div className='background_banner_paragraph'>
                 <p className="text-center  text-white"
                  style={{

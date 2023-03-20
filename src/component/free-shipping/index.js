@@ -1,13 +1,24 @@
 import React from "react";
+import "./freeshipping.css"
 
 const FreeShipping = () => {
   return (
     <>
       <div className="free_shipping_wrapper">
-        <div className="container-fluid bg-info">
+        <div className="container-fluid ">
           <div className="row pt-5 pb-5">
             <div className="col-lg-6 pt-2 pb-2 ">
-              <h1 className="text-white text-center">
+              <h1 className="text-white text-center"
+              style={{
+                fontSize: "40px",
+                letterspacing: "-2px",
+                marginBottom: "6px",
+               
+                fontFamily: "system-ui",
+                fontWeight:"600px",
+                lineheight: "60px"
+              }}
+              >
                 Free Shipping Wordwide.
               </h1>
             </div>
