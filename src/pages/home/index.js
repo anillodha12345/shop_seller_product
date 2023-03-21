@@ -7,6 +7,7 @@ import BannerBackground from '../../component/bannerbackground'
 import BestSellers from '../../component/bestsellers'
 import FreeShipping from '../../component/free-shipping'
 import TopStories from '../../component/topstories'
+import Content from '../../component/content/content'
 
 
 
@@ -22,7 +23,7 @@ import TopStories from '../../component/topstories'
 <BestSellers/>
 <FreeShipping/>
 <TopStories/>
-
+<Content/>
   <Footer/>
 
 
