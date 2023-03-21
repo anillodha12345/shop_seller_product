@@ -10,11 +10,13 @@ import TopStories from "../../component/topstories";
 import Content from "../../component/content/content";
 import Headers from "../../component/layout/header";
 
+
+
 const Home = () => {
   return (
     <>
     <Headers/>
-      <Banner />
+      <Banner   />  
       <Content />
       <BannerCard />
 
