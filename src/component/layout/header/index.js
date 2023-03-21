@@ -86,13 +86,13 @@ const Headers = () => {
                 to="/product"
                 className="mx-3 text-black text-decoration-none "
               >
-                Pages
+                Products
               </NavLink>
               <NavLink
                 to="/services"
                 className="mx-3 text-black text-decoration-none"
               >
-                Portfolio
+                Services
               </NavLink>
               <NavLink
                 to="/about"
@@ -202,7 +202,7 @@ const Headers = () => {
                               {" "}
                               <MdDelete
                                 size={30}
-                                color="red"
+                                color="black"
                                 onClick={() => Delete(items.id)}
                               />{" "}
                             </p>

@@ -1,9 +1,12 @@
 import React from 'react'
 
+import Newstore from '../../component/newstore'
+
  const  Product = ()  => {
   return (
    <>
-   <h1>This is Product Page</h1>
+ 
+ <Newstore/>
    </>
   )
 }

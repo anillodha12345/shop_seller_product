@@ -70,7 +70,7 @@ dispatch(ONE_REMOVE(item))
 
                             <div className=' d-flex justify-content-between align-items-center bg-secondary rounded' style={{width:"120px"}}>
                             <span style={{fontSize:"25px"}}  className='text-white' onClick={items.qnty <= 1 ? () => Delete(items.id): () => items_Delete(items)}>-</span>
-                            <span style={{fontSize:"25px"}} className='text-white'>{items.qnty}</span>
+                            <span style={{fontSize:"25px"}} Name='text-white'>{items.qnty}</span>
                             <span style={{fontSize:"25px"}} className='text-white' onClick={() => send(items)}>+</span>
                             </div>
                             
@@ -78,7 +78,7 @@ dispatch(ONE_REMOVE(item))
                         <td className='pt-5'>
                              <p><b>Rating </b> : <span className='bg-success text-white rounded'>{items.rating}★</span></p>
                             <p><b>Review</b>  : 1175 + order placed from here recently </p>
-                            <p> <MdDelete size={30} color='red' onClick={() => Delete(items.id)}/> </p>
+                            <p> <MdDelete size={30} color='black' onClick={() => Delete(items.id)}/> </p>
                         </td>
                     </tr>
                     </Table>

@@ -15,7 +15,7 @@ const TopBar = () => {
           <div className="col-lg-6">
             <div className="container-fluid">
               <div className="row   ">
-                <div className="col-lg-4 pt-2 fs-6">
+                <div className="col-lg-4 pt-2 fs-1">
                   <p className="top_bar_font top-bar-widget text-center">
                     Welcome to suprema
                   </p>

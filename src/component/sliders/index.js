@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
 import { FcLike } from "react-icons/fc";
+import Newstore from "../newstore";
 
 
 const Sliders = () => {
@@ -103,6 +104,7 @@ const Sliders = () => {
                       </div>
                     
                     </div>
+                  
                   </>
                 );
               })}

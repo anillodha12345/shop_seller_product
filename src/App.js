@@ -1,15 +1,16 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './pages/home'
-import Services from './pages/services'
+
 import Product from './pages/product'
 import Contact from './pages/contact'
-
+import Services from "./pages/services/index"
 import About from './pages/about'
-import Headers from './component/layout/header'
+// import Headers from './component/layout/header'
 import CardsDetail from './component/cardsdetail'
 import Footer from './component/layout/footer'
 import TopBar from './component/layout/topbar'
+import ElectronicServices from './component/servicesdetails/electronic-services'
 
 const   App = () => {
 
@@ -17,7 +18,7 @@ const   App = () => {
    <>
    <BrowserRouter>
    <TopBar/>
-  <Headers/>
+  {/* <Headers/> */}
    <Routes>
     <Route path='/' element = {<Home/>} />
     <Route path='/services' element = {<Services/>} />
@@ -27,6 +28,7 @@ const   App = () => {
     <Route path='/cardsdetail' element={<CardsDetail/>} />
     <Route path='/cardsdetail/:id' element={<CardsDetail/>} />
     <Route path="/footer"  element={<Footer/>}/>
+    <Route path="/electronic-services/:id" element = {<ElectronicServices/>} />
  
    </Routes>
    

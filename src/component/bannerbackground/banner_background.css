@@ -1,6 +1,7 @@
 .background_wrapper{
     background-image: url('../../assets/images/backgroundimage1.jpg');
     position: relative; 
+    background-attachment: fixed;
     font-family: "HelveticaNeueLTProBlkCn";
     background-color:rgb(33,27,78);
     background-position: 0 0px,100% 0,top right ;

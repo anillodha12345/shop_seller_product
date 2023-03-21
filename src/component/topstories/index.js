@@ -37,7 +37,7 @@ const TopStories = () => {
                     </span>
                   </div>
                   <div className="pt-3 pb-2">
-                    <p style={{fontSize:"13px"}}>Continue reading <span className="text-secondary" > <TbMathGreater/></span></p>
+                    <h6 style={{fontSize:"13px"}}>Continue reading <span className="text-secondary" > <TbMathGreater/></span></h6>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const TopStories = () => {
                   </span>
                 </div>
                 <div className="pt-3 pb-2">
-                  <p style={{fontSize:"13px"}}>Continue reading <span className="text-secondary"><TbMathGreater/></span></p>
+                  <h6 style={{fontSize:"13px"}}>Continue reading <span className="text-secondary"><TbMathGreater/></span></h6>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@ const TopStories = () => {
                   </span>
                 </div>
                 <div className="pt-3 pb-2" >
-                  <p style={{fontSize:"13px"}}>Continue reading <span className="text-secondary"> <TbMathGreater/></span></p>
+                  <h6 style={{fontSize:"13px"}}><b>Continue reading</b> <span className="text-secondary"> <TbMathGreater/></span></h6>
                 </div>
               </div>
             </div>
