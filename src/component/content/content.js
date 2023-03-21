@@ -4,7 +4,7 @@ const Content = () =>  {
   return (
   <>
   <div className='wrapper-content '>
-        <div className='container pt-5'>
+        <div className='container pt-5 pb-5'>
             <div className='row'>
                 <div className='col-md-4'>
                    <div><h5 className='text-center'>Captivating and Creative</h5></div> 
