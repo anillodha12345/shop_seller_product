@@ -94,7 +94,7 @@ const Sliders = () => {
                           </p>
                           <p>
                             <Button
-                              className="bg-black border-0 text-white col-lg-12"
+                              className="bg-black border-0 text-white col-lg-12 fs-6  p-2"
                               onClick={() => send(items)}
                             >
                               ADD TO CARD
