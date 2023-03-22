@@ -6,10 +6,11 @@ import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
 import "../../slider-animations.css";
 import "../../styles.css";
-import Contacted from "./contactData";
+import Contacted from "./serviceData";
 import Headers from "../../component/layout/header";
+import "./services.css"
 
-const Contact = () => {
+const Service = () => {
   const [data, setData] = useState(Contacted);
 
   return (
@@ -17,11 +18,11 @@ const Contact = () => {
     
         <Headers/>
         <div className="wrapper"></div>
-        <Slider className="slider-wrapper">
+        <Slider className="slider-wrapper services" autoplay={1000} >
           {data.map((item, index) => (
             <div
               key={index}
-              className="slider-content"
+              className="slider-content "
               style={{
                 background: `url('${item.image}') no-repeat center center`,
               }}
@@ -29,15 +30,10 @@ const Contact = () => {
               <div className="inner">
                 <h1>{item.title}</h1>
                 <p>{item.description}</p>
-                <button>{item.button}</button>
-                <button>{item.button}</button>
+                <button className="mx-5">{item.button}</button>
+                <button>{item.button1}</button>
               </div>
-              <section>
-                <img src={item.userProfile} alt={item.user} />
-                <span>
-                  Posted by <strong>{item.user}</strong>
-                </span>
-              </section>
+             
             </div>
           ))}
         </Slider>
@@ -46,4 +42,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Service;

@@ -10,7 +10,7 @@ function Banner() {
   return (
     <>
     <div className="banner_wrapper">
-      <Carousel>
+      <Carousel  >
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -183,7 +183,7 @@ function Banner() {
                       FIND OUT MORE
                     </button>
                     <button className="px-5 py-3 border border-light fs-6 bg-transparent text-white font-weight-bold h1  animate__animated  animate__bounceInUp " style={{marginLeft : "10px"}}>
-                      FIND OUT MORE
+                      BUY THE THEME
                     </button>
                   </div>
                 </div>

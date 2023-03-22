@@ -17,8 +17,8 @@ import footercard from "../../../assets/images/footer-imagecard.png"
 const Footer = () => {
   return (
     <>
-      <div className="footer_wrapper bg-black">
-        <div className="container-fluid  mt-3 text-white">
+      <div className="footer_wrapper bg-black mt-5 ">
+        <div className="container-fluid  mt-3 text-white ">
           <div className="row pt-5">
             <div className="col-md-3">
               <div className=" p-2">

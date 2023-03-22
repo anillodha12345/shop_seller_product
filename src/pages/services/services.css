@@ -8,3 +8,8 @@
     margin: 0 auto 12px;
     display: flex;
     }
+    .slider-wrapper .services {
+        position: relative;
+        height: 81vh !important;
+        overflow: hidden;
+    }

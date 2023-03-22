@@ -1,9 +1,10 @@
 import React from 'react'
+import Headers from '../../component/layout/header'
 
  const  About = ()  => {
   return (
    <>
-   <h1>This is About Page</h1>
+   <Headers/>
    </>
   )
 }

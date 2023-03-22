@@ -1,50 +1,52 @@
-import React, { useState } from 'react'
-import Banner from '../banner'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import Headers from '../layout/header'
-import Products from '../products'
-import { Productslider } from '../products/productData';
+import React, { useState } from "react";
+import Slider from "react-animated-slider";
+import "react-animated-slider/build/horizontal.css";
+import "normalize.css/normalize.css";
+import "../../slider-animations.css";
+import "../../styles.css";
+import Headers from "../layout/header";
+import { Productslider } from "../products/productData";
+import "./newstore.css";
+import Product from "../products";
 
- const Newstore = ()  => {
-  const [data,setData] = useState(Productslider)
-  console.log(data,"Anil lodha");
+const Newstore = () => {
+  const [data, setData] = useState(Productslider);
+
   return (
     <>
-    <Headers />
-
-<div className='product_wrapper'> 
-<div className='container-fluid w-100'>
-    <Carousel>
-{
-  data.map((items) => {
-    return (
-      <>
-      <div className='row'>
-      <img src={items.image} alt="noimage" width="100%" />
-      <h1>{items.title}</h1>
-      <p>{items.paragraph}</p>
+      <div className="wrapper_products_header  ">
+        <div className="container-fluid w-100  header_bar">
+          <div className="row ">
+            <Headers />
+          </div>{" "}
+        </div>
       </div>
-      </>
-    )
-  })
-}
-</Carousel>
-</div>
-</div>
 
-<Banner/>
-<Products/>
-
-  
-  
-
-  
-  
- 
-
+      <Slider className="slider-wrapper product" autoplay={1000} style={{height:"118vh"}}>
+        {data.map((item, index) => (
+          <div className="row h-100">
+            <div
+              key={index}
+              className="slider-content  "
+              style={{
+                background: `url('${item.image}') no-repeat center center `,
+              }}
+            >
+              <div className="inner">
+                <h1>{item.title}</h1>
+                <p className="text-white">{item.paragraph}</p>
+                <p className="text-white px-2">{item.paragraph1}</p>
+                <button className="mx-5">{item.button}</button>
+                <button>{item.button1}</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+      <Product/>
+      
     </>
-  )
-}
+  );
+};
 
-export default Newstore
+export default Newstore;

@@ -9,6 +9,7 @@ import { Link, NavLink } from "react-router-dom";
 import Headers from "../../component/layout/header";
 import ElectronicServices from "../../component/servicesdetails/electronic-services";
 import Footer from "../../component/layout/footer";
+import Service from "./service";
 
 const Services = () => {
   const [users, setUsers] = useState([]);
@@ -33,7 +34,8 @@ const Services = () => {
 
   return (
     <>
-    <Headers/>
+ 
+    <Service/>
       <div className=" container pt-3">
         <div className="text-center">
           <InfiniteScroll

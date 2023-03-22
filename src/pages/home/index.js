@@ -9,12 +9,14 @@ import FreeShipping from "../../component/free-shipping";
 import TopStories from "../../component/topstories";
 import Content from "../../component/content/content";
 import Headers from "../../component/layout/header";
+import TopBar from "../../component/layout/topbar";
 
 
 
 const Home = () => {
   return (
     <>
+    <TopBar/>
     <Headers/>
       <Banner   />  
       <Content />
