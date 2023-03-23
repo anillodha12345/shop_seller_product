@@ -1,0 +1,5 @@
+ .row.cards {
+    max-width: 300px;
+    display: inline-flex;
+    margin-left: 10px;
+}
