@@ -83,8 +83,8 @@ button:hover {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url("https://suprema.qodeinteractive.com/wp-content/themes/suprema/assets/css/img/slider-arrow-left-white.png") no-repeat center center /
-    16px;
+  /* background: url("https://suprema.qodeinteractive.com/wp-content/themes/suprema/assets/css/img/slider-arrow-left-white.png") no-repeat center center /
+    16px; */
   width: 32px;
   height: 32px;
   text-indent: -9999px;

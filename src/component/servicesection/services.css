@@ -13,3 +13,15 @@
         height: 81vh !important;
         overflow: hidden;
     }
+.heart_image {
+    
+        color: #a3a3a3;
+        font-size: 72px;
+        content: "\e813";
+    
+}
+
+.row .services_reverse {
+    display: flex;
+    flex-direction:row-reverse;
+}

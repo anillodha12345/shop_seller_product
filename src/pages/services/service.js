@@ -1,45 +1,29 @@
-import React, { useState } from "react";
+import React from 'react'
+import BannerCard from '../../component/banner-card'
+import Footer from '../../component/layout/footer'
+import Headers from '../../component/layout/header'
+import Pricing from '../../component/servicesection/pricing/priging'
+import ServicesBanner from '../../component/servicesection/servicebanner/servicesbanner'
+import ServicesCard from '../../component/servicesection/servicesdeliverycard/servicescard'
+import Sectionprice from '../../component/servicesection/servicesprice/sectionprice'
 
-// import Header from './header';
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
-import "normalize.css/normalize.css";
-import "../../slider-animations.css";
-import "../../styles.css";
-import Contacted from "./serviceData";
-import Headers from "../../component/layout/header";
-import "./services.css"
-
-const Service = () => {
-  const [data, setData] = useState(Contacted);
-
+const Services = () => {
   return (
     <>
+    <Headers/>
+    <ServicesBanner/>
+    <Pricing images="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-1.jpg"/>
+    <Pricing images ="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-2.jpg"/>
+    <Pricing images ="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-3.jpg" />
+    <Pricing images ="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-4.jpg" />
+    <ServicesCard/>
+    <Sectionprice/>
+    <BannerCard/>
+    <Footer/>
     
-        <Headers/>
-        <div className="wrapper"></div>
-        <Slider className="slider-wrapper services" autoplay={1000} >
-          {data.map((item, index) => (
-            <div
-              key={index}
-              className="slider-content "
-              style={{
-                background: `url('${item.image}') no-repeat center center`,
-              }}
-            >
-              <div className="inner">
-                <h1>{item.title}</h1>
-                <p>{item.description}</p>
-                <button className="mx-5">{item.button}</button>
-                <button>{item.button1}</button>
-              </div>
-             
-            </div>
-          ))}
-        </Slider>
-      
+    
     </>
-  );
-};
+  )
+}
 
-export default Service;
+export default  Services 

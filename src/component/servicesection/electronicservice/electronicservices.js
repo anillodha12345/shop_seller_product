@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Button, Card } from "react-bootstrap";
-import "./services.css";
+import  "../services.css"
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Vortex } from "react-loader-spinner";
 import { textAlign } from "@mui/system";
@@ -11,7 +11,7 @@ import ElectronicServices from "../../component/servicesdetails/electronic-servi
 import Footer from "../../component/layout/footer";
 import Service from "./service";
 
-const Services = () => {
+const ElectronicService = () => {
   const [users, setUsers] = useState([]);
   const [currPage, setCurrPage] = useState(1);
 
@@ -34,8 +34,7 @@ const Services = () => {
 
   return (
     <>
- 
-    <Service/>
+
       <div className=" container pt-3">
         <div className="text-center">
           <InfiniteScroll
@@ -108,9 +107,9 @@ const Services = () => {
           })}
         </div>
       </div>
-      <Footer/>
+     
     </>
   );
 };
 
-export default Services;
+export default ElectronicService;

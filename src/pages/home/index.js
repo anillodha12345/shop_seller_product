@@ -20,7 +20,7 @@ const Home = () => {
     <Headers/>
       <Banner   />  
       <Content />
-      <BannerCard />
+     <BannerCard/>
 
       <Sliders />
 

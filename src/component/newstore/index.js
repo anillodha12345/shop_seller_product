@@ -22,7 +22,7 @@ const Newstore = () => {
         </div>
       </div>
 
-      <Slider className="slider-wrapper product" autoplay={1000} style={{height:"118vh"}}>
+      <Slider className="slider-wrapper product" autoplay={1000} >
         {data.map((item, index) => (
           <div className="row h-100">
             <div
