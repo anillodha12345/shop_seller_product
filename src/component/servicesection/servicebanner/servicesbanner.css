@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Container-fluid {
+
+    width: 100%;
+  }
+  .images {
+    max-height: 538px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }

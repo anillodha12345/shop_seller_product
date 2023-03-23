@@ -1,45 +1,36 @@
-import React, { useState } from "react";
+import React from 'react';
+// import image1 from '../../assets/images';
 
-// import Header from './header';
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
-import "normalize.css/normalize.css";
-import "../../../slider-animations.css";
-import "../../../styles.css";
-import Contacted from "./serviceData";
+// import './Banner.css';
+import './servicesbanner.css';
 
-import "../services.css";
-// import Services from "../../../pages/services";
-import Headers from "../../layout/header";
-
-const ServicesBanner = () => {
-  const [data, setData] = useState(Contacted);
-
+function ServicesBanner() {
   return (
-    <>
-      <div className="wrapper"></div>
-      <Slider className="slider-wrapper services" autoplay={1000}>
-        {data.map((item, index) => (
-          <div
-            key={index}
-            className="slider-content "
-            style={{
-              background: `url('${item.image}') no-repeat center center`,
-            }}
-          >
-            <div className="inner">
-              <h1>{item.title}</h1>
-              <p>{item.description}</p>
-              <button className="mx-5">{item.button}</button>
-              <button>{item.button1}</button>
-            </div>
-          </div>
-        ))}
-      </Slider>
-
-     
-    </>
+    <div>
+      
+        <div className='row mb-5 m-0 p-0 w-100'>
+           <img src="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/faq-1-title-image.jpg" alt='no-image' width="100%" className='images'/> 
+  
+        </div>
+    
+    </div>
   );
-};
+}
 
 export default ServicesBanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

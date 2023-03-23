@@ -1,50 +1,110 @@
+
 import React, { useState } from "react";
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
-import "normalize.css/normalize.css";
-import "../../slider-animations.css";
-import "../../styles.css";
+import Banner from "../banner";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import Headers from "../layout/header";
+import Products from "../products";
 import { Productslider } from "../products/productData";
 import "./newstore.css";
-import Product from "../products";
 
 const Newstore = () => {
   const [data, setData] = useState(Productslider);
-
+  console.log(data, "Anil lodha");
   return (
     <>
-      <div className="wrapper_products_header  ">
-        <div className="container-fluid w-100  header_bar">
-          <div className="row ">
-            <Headers />
-          </div>{" "}
+      <div className="container-fluid w-100">
+        <div className="row product_header">
+          <Headers />
         </div>
       </div>
 
-      <Slider className="slider-wrapper product" autoplay={1000} >
-        {data.map((item, index) => (
-          <div className="row h-100">
-            <div
-              key={index}
-              className="slider-content  "
-              style={{
-                background: `url('${item.image}') no-repeat center center `,
-              }}
-            >
-              <div className="inner">
-                <h1>{item.title}</h1>
-                <p className="text-white">{item.paragraph}</p>
-                <p className="text-white px-2">{item.paragraph1}</p>
-                <button className="mx-5">{item.button}</button>
-                <button>{item.button1}</button>
-              </div>
-            </div>
-          </div>
-        ))}
-      </Slider>
-      <Product/>
-      
+      <div className="product_wrapper">
+        <div className="container-fluid w-100">
+          <Carousel
+            autoPlay
+            interval="15000"
+            infiniteLoop
+            showIndicators={false}
+          >
+            {data.map((items) => {
+              return (
+                <>
+                  <div className="product_banner">
+                    <img
+                      className="d-block w-100"
+                      src={items.image}
+                      width={900}
+                      height={500}
+                      alt="Third slide"
+                    />
+                  </div>
+
+                  <div className="row product_heading">
+                    <div className="text-center">
+                      <h2 className=" mb-3 mt-3  animate__animated  animate__fadeInUpBig">
+                        <span
+                          className="text-white "
+                          style={{
+                            fontSize: "74px",
+                            letterspacing: "-2px",
+                            marginBottom: "6px",
+                            lineHeight: "83px",
+                          }}
+                        >
+                          {items.title}
+                        </span>
+                      </h2>
+
+                      <div>
+                        <p className="animate__animated  animate__bounceInUp">
+                          <span
+                            style={{
+                              fontSize: "20px",
+                              letterspacing: "0px",
+                              lineHeight: "29px",
+                            }}
+                            className="text-center text-white"
+                          >
+                            {items.paragraph}
+                          </span>
+                        </p>
+                        <p className="animate__animated  animate__bounceInUp">
+                          <span
+                            style={{
+                              fontSize: "20px",
+                              letterspacing: "0px",
+                              lineHeight: "29px",
+                            }}
+                            className="text-center text-white"
+                          >
+                            {items.paragraph1}
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-start">
+                      <div className="mx-0 px-0 text-center">
+                        <button class="px-5 py-3 bg-info border-info fs-6 text-white font-weight-bold h1  animate__animated  animate__bounceInUp">
+                          FIND OUT MORE
+                        </button>
+                        <button
+                          className="px-5 py-3 border border-light fs-6 bg-transparent text-white font-weight-bold h1  animate__animated  animate__bounceInUp "
+                          style={{ marginLeft: "10px" }}
+                        >
+                          FIND OUT MORE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
+          </Carousel>
+        </div>
+      </div>
+
+      <Products />
     </>
   );
 };

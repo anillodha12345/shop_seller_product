@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <>
     <Headers/>
-    <ServicesBanner/>
+    <ServicesBanner/> 
     <Pricing images="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-1.jpg"/>
     <Pricing images ="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-2.jpg"/>
     <Pricing images ="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/services-wide-3.jpg" />
@@ -20,7 +20,7 @@ const Services = () => {
     <Sectionprice/>
     <BannerCard/>
     <Footer/>
-    
+      
     
     </>
   )
