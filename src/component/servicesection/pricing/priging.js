@@ -35,7 +35,7 @@ const Pricing = (props) => {
               <div className="px-5">
                 <div className="px-5">
                   <button
-                    class="px-5 py-3 bg-info border-info fs-6 text-white font-weight-bold " style={{background:"#0cc3ce"}}
+                    class="px-5 py-3  border-0 fs-6 text-white font-weight-bold " style={{background:"#0cc3ce"}}
                   >
                     CONTINUE READING
                   </button>

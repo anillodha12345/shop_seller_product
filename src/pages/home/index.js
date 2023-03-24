@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Banner from "../../component/banner";
 import Sliders from "../../component/sliders";
 import Footer from "../../component/layout/footer";
@@ -14,17 +14,19 @@ import TopBar from "../../component/layout/topbar";
 
 
 const Home = () => {
+  const [first, setfirst] = useState("rajat")
   return (
     <>
     <TopBar/>
     <Headers/>
-      <Banner   />  
-      <Content />
-     <BannerCard/>
+    <Banner   />  
+    <Content />
+    <BannerCard/>
 
       <Sliders />
+      <BannerBackground image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-parallax.jpg" text={"Shop Limited Edition"}
+                       />
 
-      <BannerBackground />
       <BestSellers />
       <FreeShipping />
       <TopStories />

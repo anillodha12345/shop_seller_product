@@ -1,16 +1,14 @@
 import React from 'react';
-// import image1 from '../../assets/images';
+import  image1 from "../../assets/images/about.jpg"
 
-// import './Banner.css';
-import './servicesbanner.css';
 
-function ServicesBanner() {
+const AboutBanner = () => {
   return (
     <div>
       
       
         <div className='row  m-0 p-0 w-100'>
-           <img src="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/faq-1-title-image.jpg" alt='no-image' width="100%" className='images'/> 
+           <img src={image1} alt='no-image' width="100%" height={650} /> 
         </div>
         <div className='text-center '>
                     <h2 className=" mb-3 mt-3 text-white  animate__animated  animate__fadeInUpBig  banner_services_heading ">
@@ -23,7 +21,7 @@ function ServicesBanner() {
                           lineHeight: "83px",
                         }}
                       >
-                        Services.
+                        About.
                       </span>
                     </h2>
                   </div>
@@ -33,20 +31,4 @@ function ServicesBanner() {
   );
 }
 
-export default ServicesBanner;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default AboutBanner;

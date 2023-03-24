@@ -101,17 +101,18 @@ const Headers = () => {
                 Portfolio
               </NavLink>
               <NavLink
-                to="/contact"
+                to="/about"
                 className="mx-3 text-black text-decoration-none"
               >
-                Shop
+                About
               </NavLink>
               <NavLink
                 to="/contact"
                 className="mx-3 text-black text-decoration-none"
               >
-                Element
+                Contact
               </NavLink>
+
               <NavLink
                 to="/contact"
                 className="mx-3 text-black text-decoration-none"
