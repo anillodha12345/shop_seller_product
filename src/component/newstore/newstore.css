@@ -15,7 +15,7 @@
 }
 
 
-  .product_banner img {
+ .product_banner img {
     position: relative;
     height: 900px;
     background-attachment: fixed;
@@ -45,3 +45,9 @@
     position: absolute;
     top: -28rem !important;
 }
+
+
+
+
+
+

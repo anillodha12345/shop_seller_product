@@ -218,6 +218,7 @@ export const Productslider = [
         id:1,
         image : "https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/Home-Shop-6-Slider-1.jpg",
         title:"Summer Sale",
+      
         paragraph:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ",
         paragraph1 :"nibh euismod tincidunt ut laoreet dolore"
 
@@ -226,6 +227,7 @@ export const Productslider = [
         id:2,
         image : "https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/Home-Shop-6-Slider-2.jpg",
         title:"New Stores",
+
         paragraph:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ",
         paragraph1 :"nibh euismod tincidunt ut laoreet dolore"
 
@@ -234,6 +236,7 @@ export const Productslider = [
         id:3,
         image : "https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/Home-Shop-6-Slider-3.jpg",
         title:"Winter Sale",
+
         paragraph:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ",
         paragraph1 :"nibh euismod tincidunt ut laoreet dolore"
 
@@ -242,6 +245,7 @@ export const Productslider = [
         id:4,
         image : "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/Home-Shop-6-Slider-5.jpg",
         title:"Autumn Sale",
+
         paragraph:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy",
         paragraph1 :"nibh euismod tincidunt ut laoreet dolore"
 
@@ -250,6 +254,7 @@ export const Productslider = [
         id:5,
         image : "https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/Home-Shop-6-Slider-4.jpg",
         title:"Your Stores",
+
         paragraph:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ",
         paragraph1 :"nibh euismod tincidunt ut laoreet dolore"
 

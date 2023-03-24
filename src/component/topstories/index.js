@@ -7,7 +7,7 @@ import { TbMathGreater } from "react-icons/tb";
 const TopStories = () => {
   return (
     <>
-      <div className="wrapper_topstories">
+      <div className="wrapper_topstories mb-5">
         <div className="container">
           <div className="row pt-5">
             <div className="col-md-12">

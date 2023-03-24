@@ -1,19 +1,18 @@
 
-import React, { useState } from 'react'
-import Banner from '../banner'
+import React, { useState } from "react";
+import Banner from "../banner";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Headers from '../layout/header'
-import Products from '../products'
-import { Productslider } from '../products/productData';
-import "./newstore.css"
+import Headers from "../layout/header";
+import Products from "../products";
+import { Productslider } from "../products/productData";
+import "./newstore.css";
+import 'animate.css';
 
- const Newstore = ()  => {
-  const [data,setData] = useState(Productslider)
-  console.log(data,"Anil lodha");
+const Newstore = () => { 
+
   return (
     <>
-   
     <div className='container-fluid w-100'>
       <div className='row product_header'>
       <Headers />
@@ -104,14 +103,9 @@ import "./newstore.css"
 </Carousel>
 </div>
 </div>
-
-
 <Products/>
-
-  
-  
     </>
-  )
-}
+  );
+};
 
-export default Newstore
+export default Newstore;

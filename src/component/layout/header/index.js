@@ -95,23 +95,24 @@ const Headers = () => {
                 Services
               </NavLink>
               <NavLink
+                to="/portfolio"
+                className="mx-3 text-black text-decoration-none"
+              >
+                Portfolio
+              </NavLink>
+              <NavLink
                 to="/about"
                 className="mx-3 text-black text-decoration-none"
               >
-                Blog
+                About
               </NavLink>
               <NavLink
                 to="/contact"
                 className="mx-3 text-black text-decoration-none"
               >
-                Shop
+                Contact
               </NavLink>
-              <NavLink
-                to="/contact"
-                className="mx-3 text-black text-decoration-none"
-              >
-                Element
-              </NavLink>
+
               <NavLink
                 to="/contact"
                 className="mx-3 text-black text-decoration-none"
