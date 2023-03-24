@@ -19,13 +19,21 @@ const Home = () => {
     <>
     <TopBar/>
     <Headers/>
+      <Banner   /> 
+      
+      <Content />
+      <BannerCard image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-1.jpg"/>
+      <BannerCard image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-2.jpg"/>
+      <BannerCard image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-3.jpg"/>
+      <BannerCard image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-4.jpg"/>
+      <BannerCard image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-5.jpg"/>
     <Banner   />  
     <Content />
     <BannerCard/>
 
+
       <Sliders />
-      <BannerBackground image = "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-parallax.jpg" text={"Shop Limited Edition"}
-                       />
+      <BannerBackground />
 
       <BestSellers />
       <FreeShipping />

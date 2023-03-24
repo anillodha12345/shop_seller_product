@@ -40,7 +40,9 @@
 
 .slick-next:before {
     content: '\203A';
+    font-size: 70px;
 }
 .slick-prev:before {
     content: '\2039';
+    font-size: 70px;
 }
