@@ -1,0 +1,7 @@
+.wrapper_topstories.mb-5 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 400px;
+}

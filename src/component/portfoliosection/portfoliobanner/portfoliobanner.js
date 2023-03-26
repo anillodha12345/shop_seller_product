@@ -13,11 +13,7 @@ function PortfolioBanner() {
   return (
     <>
       <div className="portfolio_banner_wrapper">
-      <div className="container-fluid w-100">
-        <div className="row portfolio_header">
-          <Headers />
-        </div>
-      </div>
+      
         <Carousel className="portfolio_container">
           <Carousel.Item>
             <div className="portfolio_banner_img">

@@ -1,13 +1,13 @@
-.background_wrapper{
-    background-image: url('https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/home-main-parallax-1.jpg');
+
+
+  .wrapper_background_portfolio {
+    background-image: url("https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/home-main-parallax-1.jpg");
     position: relative; 
     background-attachment: fixed;
     font-family: "HelveticaNeueLTProBlkCn";
-
     background-position: 0 0px,100% 0,top right ;
     background-repeat: no-repeat,no-repeat;
     background-size: 100%,55%;
-
     height: 550px;
   }
 

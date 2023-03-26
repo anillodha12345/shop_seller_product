@@ -21,7 +21,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { BsBag } from "react-icons/bs";
 
-const Headers = () => {
+const Headers = (props) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [price, setPrice] = useState(0);
 
@@ -71,7 +71,7 @@ const Headers = () => {
               fontSize: "-webkit-xxx-large",
             }}
           >
-            <h1 className="mx-5"> Suprema</h1>
+            <h1 className="mx-5 " style={props.style}>{props.title}</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse
@@ -79,45 +79,50 @@ const Headers = () => {
             className="d-flex justify-content-end navbars"
           >
             <Nav className="pt-2 pb-2">
-              <NavLink to="/" className="mx-3 text-black text-decoration-none">
-                Home
+              <NavLink to="/" className="mx-3  text-decoration-none" style={props.style}>
+                {props.title1}
               </NavLink>
               <NavLink
                 to="/product"
-                className="mx-3 text-black text-decoration-none "
+                className="mx-3  text-decoration-none " style={props.style}
               >
-                Products
+                {props.title2}
               </NavLink>
               <NavLink
                 to="/services"
-                className="mx-3 text-black text-decoration-none"
+                className="mx-3  text-decoration-none"
+                style={props.style}
               >
-                Services
+                {props.title3}
               </NavLink>
               <NavLink
                 to="/portfolio"
-                className="mx-3 text-black text-decoration-none"
+                className="mx-3  text-decoration-none"
+                style={props.style}
               >
-                Portfolio
+               {props.title4}
               </NavLink>
               <NavLink
                 to="/about"
-                className="mx-3 text-black text-decoration-none"
+                className="mx-3  text-decoration-none"
+                style={props.style}
               >
-                About
+                {props.title5}
               </NavLink>
               <NavLink
                 to="/contact"
-                className="mx-3 text-black text-decoration-none"
+                className="mx-3  text-decoration-none"
+                style={props.style}
               >
-                Contact
+               {props.title6}
               </NavLink>
 
               <NavLink
                 to="/contact"
-                className="mx-3 text-black text-decoration-none"
+                className="mx-3  text-decoration-none"
+                style={props.style}
               >
-                Login
+               {props.title7}
               </NavLink>
             </Nav>
           </Navbar.Collapse>

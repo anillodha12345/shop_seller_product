@@ -4,7 +4,7 @@ import "./portfoliobackground.css";
 const PortfolioBackground = () => {
   return (
     <>
-      <div className="background_wrapper pt-5 mt-5 mb-5">
+      <div className="wrapper_background_portfolio pt-5 mt-5 mb-5">
         <div className="container pb-2 pt-5">
             <div className="row">
                     <div className="col-lg-6 pt-5">

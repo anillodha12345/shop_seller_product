@@ -7,7 +7,7 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 const ServicesCard = () => {
   return (
     <>
-      <div className="wrapper_deliver pt-5">
+      <div className="wrapper_deliver pt-2">
         <div className="container ">
           <div className="py-5">
             <h3 className="text-center">WooCommerce Compatible </h3>{" "}

@@ -10,14 +10,11 @@ import "./newstore.css";
 import 'animate.css';
 
 const Newstore = () => { 
+  const[data,setData] = useState(Productslider)
 
   return (
     <>
-    <div className='container-fluid w-100'>
-      <div className='row product_header'>
-      <Headers />
-      </div>
-      </div>
+ 
     
   
 <div className='product_wrapper'> 

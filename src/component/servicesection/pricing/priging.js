@@ -2,7 +2,7 @@ import React from "react";
 import "../services.css"
 
 const Pricing = (props) => {
-    console.log(props,"adjadja");
+  
   return (
     <>
       <div className="wrapper_services_card_all">
@@ -18,18 +18,12 @@ const Pricing = (props) => {
               <div className="px-5">
                 {" "}
                 <h3 className="justify-content-center text-black px-5 py-3">
-                  Lorem ipsum dolor sit amet, consectetuer erat.
+                 {props.title}
                 </h3>{" "}
               </div>
               <div className="px-5">
                 <p className="justify-content-center px-5 text-secondary">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie consequat,
-                  vel illum dolore eu feugiat nulla
+                  {props.paragraph}
                 </p>
               </div>
               <div className="px-5">
@@ -37,7 +31,7 @@ const Pricing = (props) => {
                   <button
                     class="px-5 py-3  border-0 fs-6 text-white font-weight-bold " style={{background:"#0cc3ce"}}
                   >
-                    CONTINUE READING
+                    {props.button}
                   </button>
                 </div>
               </div>

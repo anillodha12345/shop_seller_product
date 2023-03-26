@@ -1,12 +1,12 @@
 .background_wrapper{
-    background-image: url('../../assets/images/backgroundimage1.jpg');
+    background-image: url('https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-parallax.jpg');
     position: relative; 
     background-attachment: fixed;
     font-family: "HelveticaNeueLTProBlkCn";
-    background-color:rgb(33,27,78);
+    /* background-color:rgb(33,27,78); */
     background-position: 0 0px,100% 0,top right ;
     background-repeat: no-repeat,no-repeat;
     background-size: 100%,55%;
-    background-color: #1e1a40;
+    /* background-color: #1e1a40; */
     height: 500px;
   }
