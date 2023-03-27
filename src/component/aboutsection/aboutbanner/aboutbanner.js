@@ -1,6 +1,6 @@
 import React from 'react';
 import image1 from "../../../assets/images/about1.jpg"
-import "../about.css"
+import "../abouts.css"
 import Headers from '../../layout/header';
 
 

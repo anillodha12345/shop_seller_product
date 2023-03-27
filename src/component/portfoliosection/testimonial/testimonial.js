@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import image4 from "../../../assets/images/testimonial-image-4.png";
 import "../portfoliobackground/portfoliobackground.css";
 
-const Testimonial = () => {
+const Testimonial = (props) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -141,10 +141,10 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row mt-5">
+      <div className="container ">
+        <div className="row mt-5 wrapper_protofolio_awesome_thems">
           <div className="pt-5">
-            <img src={image4} alt="no-image" width="100%" />
+            <img src={props.image} alt="no-image" width="100%" />
           </div>
         </div>
 

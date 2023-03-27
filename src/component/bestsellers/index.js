@@ -3,7 +3,7 @@ import Bestsellers from "./bestsellers";
 import "./bestseller.css";
 import { AiFillHeart } from "react-icons/ai";
 
-const BestSellers = () => {
+const BestSellers = (props) => {
   const [data, setData] = useState(Bestsellers);
   console.log(data, "akahh");
 
@@ -13,10 +13,10 @@ const BestSellers = () => {
         <div className="container mt-5 ">
           <div className="row">
             <div>
-              <h6 className="text-center">Best Sellers</h6>
+              <h6 className="text-center">{props.name}</h6>
             </div>
             <div className="pb-5">
-              <h3 className="text-center">Browse Through Our Best Selleres</h3>
+              <h3 className="text-center">{props.title}</h3>
             </div>
 
             {data?.map((items, index) => {

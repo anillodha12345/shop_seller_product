@@ -32,20 +32,20 @@ const Home = () => {
  
 <div className="container">
       <Content
-        title={"Designed With Care"}
+        title="Designed With Care"
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
         text="Find out more"
       />
 
       <Content
-        title={"Stunning On All Screens"}
+        title="Stunning On All Screens"
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
         text="Find out more"
       />
         <Content
-        title={"Stunning On All Screens"}
+        title="Stunning On All Screens"
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
         text="Find out more"
@@ -79,7 +79,7 @@ const Home = () => {
           </div>
         
       <TopStories
-       image= "http://localhost:3000/static/media/topstoreimage1.d7b36a9966ee3cdfe617.jpg"
+       image= "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/10-Innovative-Playlist-Apps.jpg"
        title="10 Innovative Playlist Apps"
        date="February 12, 2016"
        paragraph = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut..."

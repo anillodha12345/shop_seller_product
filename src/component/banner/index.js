@@ -28,6 +28,12 @@ function Banner() {
                     <h2 className=" mb-3 mt-3  animate__animated  animate__fadeInUpBig ">
                       <span
                         className=" "
+                        style={{
+                          fontSize: "74px",
+                          letterspacing: "-2px",
+                          marginBottom: "6px",
+                          lineHeight: "83px",
+                        }}
                        
                       >
                         Best Sellers.

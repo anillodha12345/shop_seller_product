@@ -1,4 +1,5 @@
 import React from 'react'
+import Counting from '../../component/aboutsection/counting/counting'
 import BannerCard from '../../component/banner-card'
 import Content from '../../component/content/content'
 import Footer from '../../component/layout/footer'
@@ -13,12 +14,13 @@ import Testimonial from '../../component/portfoliosection/testimonial/testimonia
 import TopStories from '../../component/topstories'
 // import TopStories from '../../component/topstories'
 
+
 const   Portfolio = () =>  {
   return (
     <>
   <TopBar/>
-  <div className='header_portfolio_wrapper'>
- <Headers  title=" Suprema" style={{color: "black" }} 
+  <div className='header_wrapper'>
+ <Headers  title=" Suprema" style={{color: "white" }} 
     title1 = "Home"
     title2 = "Products"
     title3 = "Services"
@@ -75,8 +77,9 @@ const   Portfolio = () =>  {
     
      
 
-    <Testimonial/>
-<div className='container'>
+    <Testimonial image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/home-main-image-2.png"/>
+
+<div className='container '>
   <div className=' row justify-content-center'>
     <TopStories
        image= "http://localhost:3000/static/media/topstoreimage1.d7b36a9966ee3cdfe617.jpg"
@@ -101,6 +104,7 @@ const   Portfolio = () =>  {
       />
 </div>
 </div>
+<Counting/>
     
     
     <Footer/>

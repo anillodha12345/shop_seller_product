@@ -13,7 +13,7 @@ import Headers from '../../component/layout/header'
    <>
  <TopBar/>
  <div className='header_wrapper'>
- <Headers  title=" Suprema" style={{color: "red" }} 
+ <Headers  title=" Suprema" style={{color: "white" }} 
     title1 = "Home"
     title2 = "Products"
     title3 = "Services"
@@ -21,6 +21,7 @@ import Headers from '../../component/layout/header'
     title5 = "About"
     title6 = "Contact"
     title7 = "Login"
+    className="productabc"
   
     />
  </div>

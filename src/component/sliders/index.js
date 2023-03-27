@@ -82,15 +82,18 @@ const Sliders = () => {
                         />
                         <div className="card-body ">
                           <div className="row">
+
+                            
                           <div className="col-md-6"> <p className="card-title text-secondary  ">{items.rname} </p></div>
                           <div className="col-md-6 text-end"> <p className="card-title text-secondary  "><FcLike/> </p></div>
                           </div>
                           
                           <p className="card-text  text-black">
-                            {items.address}
+                            {items.address} 
+
                           </p>
                           <p className="card-text  text-secondary ">
-                            Price : ₹{items.price}
+                            Price : ${items.price}
                           </p>
                           <p>
                             <Button
