@@ -25,3 +25,6 @@
     display: flex;
     flex-direction:row-reverse;
 }
+.wrapper_services_card_all .row:nth-child(odd) {
+    flex-direction:row-reverse;
+}

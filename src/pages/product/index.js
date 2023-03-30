@@ -5,6 +5,10 @@ import Newstore from '../../component/newstore'
 import BestSellers from '../../component/bestsellers'
 import Footer from '../../component/layout/footer'
 import Headers from '../../component/layout/header'
+import HeadPhone from '../../component/productsection/headphone/headphone'
+import HeadphoneBackground from '../../component/productsection/headphone-background/headphone-background'
+import OurBestClient from '../../component/aboutsection/ourbestclient/ourbestclient'
+import SingleHandphone from '../../component/productsection/singleheadphone/single-handphone'
 
 
  const  Product = ()  => {
@@ -26,7 +30,12 @@ import Headers from '../../component/layout/header'
     />
  </div>
 
+
  <Newstore/>
+ <HeadPhone/>
+ <HeadphoneBackground/>
+ <OurBestClient/>
+ <SingleHandphone/>
  <BestSellers/>
  <Footer/>
    </>
