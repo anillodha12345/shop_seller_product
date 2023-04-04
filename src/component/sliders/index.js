@@ -64,22 +64,30 @@ const Sliders = () => {
           <div className="row">
           <div><h6 className="text-center">New Products</h6></div>
             <div><h3 className="text-center">Shop The New Collection</h3></div>
-            <Slider {...settings}>
+           
+            <Slider {...settings}  
+             autoplay= {true}
+             autoplaySpeed= {1000}
+            
+            >
               {data?.map((items, index) => {
                 return (
                   <>
+                 
                     <div className="pt-5 mb-5">
                       <div
                         className="card mx-2 border- "
                         style={{ height: "450px" }}
                       >
-                        <img
+                      
+                      <img
                           src={items.imgdata}
                           width="415px"
                           height="250px"
                           className=" border  "
                           alt="..."
                         />
+                       
                         <div className="card-body ">
                           <div className="row">
 
@@ -113,6 +121,7 @@ const Sliders = () => {
                 );
               })}
             </Slider>
+           
           </div>
           <div className="text-center mb-5">
           <Button variant="contained" className="bg-black text-white ">VIEW ALL</Button>

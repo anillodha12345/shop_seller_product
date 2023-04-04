@@ -7,9 +7,7 @@ import './servicesbanner.css';
 function ServicesBanner() {
   return (
     <div>
-      
-      
-        <div className='row  m-0 p-0 w-100'>
+        <div>
            <img src="https://suprema.qodeinteractive.com/wp-content/uploads/2016/01/faq-1-title-image.jpg" alt='no-image' width="100%" className='images'/> 
         </div>
         <div className='text-center '>

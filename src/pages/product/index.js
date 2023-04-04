@@ -35,7 +35,7 @@ import SingleHandphone from '../../component/productsection/singleheadphone/sing
  <HeadPhone/>
  <HeadphoneBackground/>
  <OurBestClient/>
- <SingleHandphone/>
+ <SingleHandphone/> 
  <BestSellers/>
  <Footer/>
    </>

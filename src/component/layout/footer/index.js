@@ -17,7 +17,7 @@ import footercard from "../../../assets/images/footer-imagecard.png"
 const Footer = () => {
   return (
     <>
-      <div className="footer_wrapper bg-black mt-5 ">
+      <div className="footer_wrapper bg-black mt-5  pb-5">
         <div className="container-fluid  mt-3 text-white ">
           <div className="row pt-5">
             <div className="col-md-3">
@@ -74,7 +74,14 @@ const Footer = () => {
                 <h4>Twitter Feed</h4>
               </div>
               <div style={{ fontSize: "13px" }}>
-                <p>Couldn't connect with Twitter</p>
+                <ul className="list-unstyled">
+                  <li   ><Link  to="/" className="text-decoration-none text-white p-2 ">Home</Link></li>
+                  <li className="pt-4"><Link to="/products"  className="text-decoration-none text-white p-2 ">Products</Link></li>
+                  <li className="pt-4"><Link to="/services"  className="text-decoration-none text-white p-2 ">Services</Link></li>
+                  <li className="pt-4"><Link  to="/portfolio" className="text-decoration-none text-white p-2 ">Portfolio</Link></li>
+                  <li className="pt-4"><Link  to="/about" className="text-decoration-none text-white p-2 ">About</Link></li>
+                  <li className="pt-4"><Link to="/contact"  className="text-decoration-none text-white p-2 ">Contact</Link></li>
+                </ul>
               </div>
             </div>
             <div className="col-md-3">

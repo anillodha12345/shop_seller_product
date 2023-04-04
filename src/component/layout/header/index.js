@@ -118,7 +118,7 @@ const Headers = (props) => {
               </NavLink>
 
               <NavLink
-                to="/contact"
+                to="/login"
                 className="mx-3  text-decoration-none"
                 style={props.style}
               >

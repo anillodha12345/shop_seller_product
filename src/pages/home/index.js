@@ -10,6 +10,8 @@ import TopStories from "../../component/topstories";
 import Content from "../../component/content/content";
 import Headers from "../../component/layout/header";
 import TopBar from "../../component/layout/topbar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
   const [first, setfirst] = useState("rajat");
@@ -64,8 +66,8 @@ const Home = () => {
       <Sliders />
       <BannerBackground />
 
-      <BestSellers />
-      <FreeShipping />
+      <BestSellers data-aos="fade-zoom-in" data-aos-offset="200" />
+      <FreeShipping data-aos="fade-up" data-aos-anchor-placement="top-center"/>
       <div className="container">
       <div className="row pt-5">
             <div className="col-md-12">

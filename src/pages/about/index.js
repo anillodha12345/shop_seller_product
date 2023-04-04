@@ -16,7 +16,7 @@ import BannerCard from "../../component/banner-card";
 const About = () => {
   return (
     <>
-      <TopBar />
+      {/* <TopBar /> */}
       <div className="header_wrapper">
         <div className="container-fluid about_container w-100  ">
           <Headers
