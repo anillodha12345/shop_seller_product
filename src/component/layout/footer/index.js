@@ -1,136 +1,282 @@
 import React from "react";
-import "./footer.css";
-import logo from "../../../assets/images/logo-footer.png";
-import { Link } from "react-router-dom";
-import { FaFacebookSquare } from "react-icons/fa";
-import { AiFillTwitterSquare } from "react-icons/ai";
-import { AiOutlineDribbbleSquare } from "react-icons/ai";
-import { FaVimeo } from "react-icons/fa";
-import { RiCamera2Line } from "react-icons/ri";
-import image1 from "../../../assets/images/footerimage1.jpg";
-import image2 from "../../../assets/images/footerimage2.jpg";
-import image3 from "../../../assets/images/footerimage3.jpg";
-import image4 from "../../../assets/images/footerimage4.jpg";
-import { TbMathGreater } from "react-icons/tb";
-import footercard from "../../../assets/images/footer-imagecard.png"
+import { Container, Row, Col, Nav, Form } from "react-bootstrap";
+import { NavLink, Link } from "react-router-dom";
+import { ImFacebook2, ImVimeo2, ImInstagram, ImLinkedin } from "react-icons/im";
+import { AiFillCopyrightCircle } from "react-icons/ai";
+import shoe from "../../../assets/images/footerimage1.jpg";
+import insta from "../../../assets/images/footerimage2.jpg";
+import shadow from "../../../assets/images/footerimage5.jpg";
+import { TfiAngleRight } from "react-icons/tfi";
+import visa from "../../../assets/images/visa.png";
+import master from "../../../assets/images/master.png";
+import paypal from "../../../assets/images/paypal.png";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaPhoneVolume, FaFax } from "react-icons/fa";
+import "../../../assets/css/styles.css";
 
-const Footer = () => {
+function Footer() {
   return (
     <>
-      <div className="footer_wrapper bg-black mt-5  pb-5">
-        <div className="container-fluid  mt-3 text-white ">
-          <div className="row pt-5">
-            <div className="col-md-3">
-              <div className=" p-2">
-                <img src={logo} />
-              </div>
-              <div className="p-2">
-                <span style={{ fontSize: "13px" }}>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet.
-                </span>
-              </div>
-              <div className="p-2">
-                <address style={{ fontSize: "13px" }}>
-                  198 West 21th Street, Suite 721, New York NY 10010
-                  <p className="pt-2">
-                    {" "}
-                    <Link href="mailto:webmaster@example.com">
-                      Email: suprema@qodeinteractive.com:
-                    </Link>
-                    .
-                  </p>
-                  <p>Phone: +88 (0) 101 0000 000</p>
-                  <p>Fax: +88 (0) 202 0000 001</p>
-                </address>
-              </div>
-              <div className="p-1">
-                <FaFacebookSquare size={25} /> <AiFillTwitterSquare size={27} />{" "}
-                <AiOutlineDribbbleSquare size={25} /> <FaVimeo size={25} />{" "}
-                <RiCamera2Line size={30} />
-              </div>
-            </div>
-            <div className="col-md-3 ">
-              <div className="pb-3">
-                <h4>Latest Posts</h4>
-              </div>
+      <section className="footer_bg footer-wrapper color  mrt70">
+        <div>
+          <Container fluid>
+            <Row className="pdtop50 ">
+              <Col xm={12} md={6} lg={3}>
+                <div className=" footer-heading_logo  ">
+                  <h1>Logo</h1>
 
-              <div className="" style={{ fontSize: "13px" }}>
-                <p>Where Music Is Headed Next</p>
-                <p className="text-info">February 12, 2016</p>
+                  <div>
+                    <div className="footer_address ">
+                      <p className="color">
+                        TechInfini Solutions Pvt. Ltd. <br />
+                        402,Airen Heights, SchemeNo. 54, <br />
+                        Opposite C21 Mall,Indore, <br />
+                        Madhya Pradesh 452010.
+                      </p>
+                      <p className="color">
+                        <span>
+                          <AiOutlineMail />
+                        </span>
+                        Example@test.com
+                      </p>
 
-                <p>Sports Brand New Advertising Campaign</p>
-                <p className="text-info">February 12, 2016</p>
+                      <p className="color">
+                        <span>
+                          <FaPhoneVolume />
+                        </span>
+                        +91 (0) 101 0000 000
+                      </p>
 
-                <p>Snippets From The Tech Mobile Conference</p>
-                <p className="text-info">February 12, 2016</p>
-
-                <p>New Music Video Will Blow Your Mind</p>
-                <p className="text-info">February 12, 2016</p>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div className="pb-3">
-                <h4>Twitter Feed</h4>
-              </div>
-              <div style={{ fontSize: "13px" }}>
-                <ul className="list-unstyled">
-                  <li   ><Link  to="/" className="text-decoration-none text-white p-2 ">Home</Link></li>
-                  <li className="pt-4"><Link to="/products"  className="text-decoration-none text-white p-2 ">Products</Link></li>
-                  <li className="pt-4"><Link to="/services"  className="text-decoration-none text-white p-2 ">Services</Link></li>
-                  <li className="pt-4"><Link  to="/portfolio" className="text-decoration-none text-white p-2 ">Portfolio</Link></li>
-                  <li className="pt-4"><Link  to="/about" className="text-decoration-none text-white p-2 ">About</Link></li>
-                  <li className="pt-4"><Link to="/contact"  className="text-decoration-none text-white p-2 ">Contact</Link></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div className="pb-3">
-                <h4>Instagram Feed</h4>
-              </div>
-              <div>
-                <img src={image1} alt="no-image" width={50} className="mx-2" />
-                <img src={image2} alt="no-image" width={50} />
-                <img src={image3} alt="no-image" width={50} className="mx-2" />
-                <img src={image4} alt="no-image" width={50} />
-              </div>
-              <div>
-                <hr />
-              </div>
-              <div className="d-flex ">
-                <div className="col-md-6">
-                  <p>Subscribe to our newsletter, get 10% off:</p>
-                </div>
-                <div className="col-md-6 ">
-                  <div className="input-group mb-3">
-                    
-                    <input
-                      type="text"
-                      className="form-control rounded-0"
-                      aria-label="Amount (to the nearest dollar)"
-                      placeholder="E-mail"
-                      
-                      style={{marginTop:"2px",}}
-                    />
-                    <div className="input-group-append pt-2 ">
-            
-                      <span className="  border border-white bg-black p-2 px-2"><TbMathGreater size={10}/></span>
+                      <p className="color">
+                        {" "}
+                        <span>
+                          <FaFax />
+                        </span>
+                        +91 (0) 202 0000 001
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div>
-                
+              </Col>
+              <Col xm={12} md={6} lg={3}>
+                <div className="footer-heading ">
+                  <h5 className="color">Latest Post</h5>
+                  <div className="pdtop20">
+                    <div className="media d-flex ">
+                      <div className="media-left">
+                        <Link to="#/">
+                          <img
+                            src={shoe}
+                            alt=""
+                            className="media-object pt-1"
+                            style={{ width: "60px" }}
+                          />{" "}
+                        </Link>
+                      </div>
+                      <div className="media-body  ps-3">
+                        <h6 className="media-heading d-flex justify-content-start color">
+                          John Doe{" "}
+                        </h6>
+                        <p className="footer_date">
+                          <Link to="#/">
+                            <i>Posted onFebruary 12, 2016 </i>
+                          </Link>
+                          <p>Lorem ipsum dolorsit amet...</p>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="media d-flex">
+                      <div className="media-left">
+                        <Link to="#/">
+                          <img
+                            src={insta}
+                            alt=""
+                            className="media-object"
+                            style={{ width: "60px" }}
+                          />{" "}
+                        </Link>
+                      </div>
+                      <div className="media-body ps-3">
+                        <h6 className="media-heading d-flex justify-content-start  ">
+                          John Doe{" "}
+                        </h6>
+                        <p className="footer_date">
+                          <Link to="#/">
+                            <i>Posted onFebruary 12, 2016 </i>
+                          </Link>
+                          <p>Lorem ipsum dolorsit amet...</p>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="media d-flex">
+                      <div className="media-left">
+                        <Link to="#/">
+                          <img
+                            src={shadow}
+                            alt=""
+                            className="media-object"
+                            style={{ width: "60px" }}
+                          />{" "}
+                        </Link>
+                      </div>
+                      <div className="media-body ps-3">
+                        <h6 className="media-heading d-flex justify-content-start color">
+                          John Doe{" "}
+                        </h6>
+                        <p className="footer_date">
+                          <Link to="#/">
+                            <i>Posted onFebruary 12, 2016 </i>
+                          </Link>
+                          <p>Lorem ipsum dolorsit amet...</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <textarea className="form-control rounded-0 border border-warning" id="exampleFormControlTextarea1" rows="2">Validation errors occurred. Please confirm the fields and submit it again.</textarea>
-              <hr/>
-              <div><img src ={footercard} width="100%"/></div>
-            </div>
-          </div>
+              </Col>
+              <Col xm={12} md={6} lg={3}>
+                <div className="page_links footer-heading ">
+                  <h5 className="color">Location</h5>
+
+                  <div className="pdtop20">
+                    <div className="map">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14718.03136813648!2d75.88608449999998!3d22.74652725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd584d617663%3A0x7ddfc9619bc0d038!2sIndore%2C%20Madhya%20Pradesh%20452011!5e0!3m2!1sen!2sin!4v1680612403324!5m2!1sen!2sin"
+                        width="100%"
+                        height="230"
+                        style={{ border: "1px solid silver" }}
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="My Location"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xm={12} md={6} lg={3}>
+                <div className="footer-heading color">
+                  <h5 className="color" >Newsletter</h5>
+                  <div className="pdtop20">
+                    <Form>
+                      <div className="ftr_email_div">
+                        <div className="ftr_subscribe  ">
+                          <label htmlFor="subscribe ">
+                            Get E-mail updates about our latest shop and special
+                            offers.:
+                          </label>
+                        </div>
+                        <div className="ftr_email_div  pdtop20">
+                          <input
+                            type="email "
+                            className="ftr_email"
+                            placeholder="E-mail"
+                          />
+                          <span className="ftr_email_arrow_btn">
+                            <TfiAngleRight color="white" />
+                          </span>
+                        </div>
+                      </div>
+                    </Form>
+
+                    <h5 className="footer_heading pdbottom20  pdtop20 color">
+                      Follow Us
+                    </h5>
+                    <div className="social-icons footer_social_icons d-flex justify-content-start  ">
+                      <span>
+                        <ImFacebook2 size={22} />
+                      </span>
+                      <span>
+                        <ImLinkedin size={22} />
+                      </span>
+                      <span>
+                        <ImVimeo2 size={22} />
+                      </span>
+                      <span>
+                        <ImInstagram size={22} />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12}>
+                <div className=" pdtop50 pdbottom50 d-flex justify-content-center ">
+                  <Nav>
+                    <NavLink className="footer_page_link color" to="/">
+                      Home
+                    </NavLink>
+                    <NavLink className="footer_page_link  color" to="/about">
+                      About Us
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/product">
+                      Product
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/services">
+                      Services
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/blog">
+                      Blog
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/contact">
+                      Contact Us
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/policy">
+                      Privacy Policy
+                    </NavLink>
+                    <NavLink className="footer_page_link color" to="/condition">
+                      Terms & Condition
+                    </NavLink>
+                  </Nav>
+                </div>
+              </Col>
+            </Row>
+            <hr className="footer_line" />
+          </Container>
         </div>
-      </div>
+        <div className="footer_bottom">
+          <Container fluid>
+            <Row>
+              <Col sm={6}>
+                <div className="footer_bottom_left">
+                  <p className="color">
+                    <span>
+                      <AiFillCopyrightCircle />
+                    </span>
+                    {new Date().getFullYear()} Suprema India,Inc.All rights
+                    reserved.
+                  </p>
+                </div>
+              </Col>
+              <Col sm={6}>
+                <div className="footer_bottom_right d-flex justify-content-end">
+                  <div className="ftr_debit_cards pe-3">
+                    <NavLink to="#">
+                      {" "}
+                      <img src={visa} alt="debit-cards" width={50} />
+                    </NavLink>
+                  </div>
+                  <div className="ftr_debit_cards pt-2 pe-3">
+                    <NavLink to="#">
+                      <img src={master} alt="debit-cards" width={50} />
+                    </NavLink>
+                  </div>
+                  <div className="ftr_debit_cards">
+                    <NavLink to="#">
+                      <img src={paypal} alt="debit-cards" width={50} />
+                    </NavLink>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </section>
     </>
   );
-};
+}
 
 export default Footer;

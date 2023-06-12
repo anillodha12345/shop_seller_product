@@ -1,75 +1,81 @@
-import React, { useState } from "react";
+import React from "react";
 import Banner from "../../component/banner";
 import Sliders from "../../component/sliders";
-import Footer from "../../component/layout/footer";
-import BannerCard from "../../component/banner-card";
+
 import BannerBackground from "../../component/bannerbackground";
-import BestSellers from "../../component/bestsellers";
-import FreeShipping from "../../component/free-shipping";
 import TopStories from "../../component/topstories";
 import Content from "../../component/content/content";
-import Headers from "../../component/layout/header";
-import TopBar from "../../component/layout/topbar";
-import AOS from 'aos';
 import 'aos/dist/aos.css';
+import BestCategory from "../../component/bestcategory-section/best-category";
+import PrintingSolution from "../../component/printing-solutoin/printing-solution";
+import { Link } from "react-router-dom";
+import image1 from "../../assets/images/contentimage1.png"
+import image2 from "../../assets/images/contentimage2.png"
+import image3 from "../../assets/images/contentimage3.png"
+import topstoreimage1 from "../../assets/images/topstoreimage1.jpg"
+import topstoreimage2 from "../../assets/images/topstoreimage.2.jpg"
+import topstoreimage3 from "../../assets/images/topstoreimage3.jpg"
 
 const Home = () => {
-  const [first, setfirst] = useState("rajat");
+  // const [first, setfirst] = useState("rajat");
   return (
     <>
-      <TopBar />
-      <Headers
-        title=" Suprema"
-        style={{ color: "black" }}
-        title1="Home"
-        title2="Products"
-        title3="Services"
-        title4="Portfolio"
-        title5="About"
-        title6="Contact"
-        title7="Login"
-      />
+     
       <Banner />
 
- 
-<div className="container">
-      <Content
-        title="Designed With Care"
-        paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        text="Find out more"
-      />
+ <div className="mrt70  mrb70">
 
+
+<div className="container">
+  <div className="row" >
+    <div className="col-md-4">
       <Content
-        title="Stunning On All Screens"
-        paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        text="Find out more"
+      image = {image1}
+        title="Designed With Care"
+        paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dicta laborum officiis nobis odio? Facere quo reiciendis qui consequatur dolore. ."
+        text=" READ MORE"
       />
+       </div>
+       <div className="col-md-4">
+      <Content
+      image={image2}
+        title="Stunning On All Screens"
+        paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dicta laborum officiis nobis odio? Facere quo reiciendis qui consequatur dolore. ."
+        text=" READ MORE"
+      />
+      </div>
+      <div className="col-md-4">
+      
         <Content
+        image = {image3}
         title="Stunning On All Screens"
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
-        text="Find out more"
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat ."
+        text=" READ MORE"
       />
+      </div>
+      </div>
 
 </div>
+</div>
+<PrintingSolution/>
 
      
 
-      <BannerCard image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-1.jpg" />
-      <BannerCard image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-2.jpg" />
-      <BannerCard image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-3.jpg" />
-      <BannerCard image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-4.jpg" />
-      <BannerCard image="https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/home-shop-1-image-5.jpg" />
+      
 
       <Sliders />
+   
       <BannerBackground />
+      <BestCategory  />
 
-      <BestSellers data-aos="fade-zoom-in" data-aos-offset="200" />
-      <FreeShipping data-aos="fade-up" data-aos-anchor-placement="top-center"/>
+     
+      {/* <FreeShipping data-aos="fade-up" data-aos-anchor-placement="top-center"/> */}
+      <div className="mrt70">
+
+      
       <div className="container">
-      <div className="row pt-5">
+      <div className="row">
             <div className="col-md-12">
               <h6 className="text-center">Latest Posts</h6>
             </div>
@@ -79,32 +85,55 @@ const Home = () => {
               <h3 className="text-center">Read Our Top Stories</h3>
             </div>
           </div>
+
+<div className="container">
+    <div className="row" >
+    <div className="col-md-4">
         
       <TopStories
-       image= "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/10-Innovative-Playlist-Apps.jpg"
+       image= {topstoreimage1}
        title="10 Innovative Playlist Apps"
        date="February 12, 2016"
-       paragraph = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut..."
+       paragraph = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut"
        readmore = "Continue reading"
        />
+       </div>
+       <div className="col-md-4">
       <TopStories
-       image= "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/15-Best-Coffee-Shops-In-LA.jpg"
+       image= {topstoreimage2}
        title="15 Best Coffee Shops In LA"
        date="February 12, 2016"
        paragraph = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut..."
        readmore = "Continue reading"
       />
+      </div>
+      <div className="col-md-4">
       <TopStories
-       image= "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/The-10-Best-Workouts-Of-2015.jpg"
+       image= {topstoreimage3}
        title ="Gabriele Jones"
        date="February 12, 2016"
        paragraph = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut..."
        readmore = "Continue reading"
       />
+      </div>
 
       </div>
-      
-      <Footer />
+
+      <div className="banner-button text-center pdtop20">
+      <Link to="/blog" className="text-decoration-none color ">
+                        <button class=" rounded animate__animated  animate__bounceInUp banner-button1  color">
+                        
+                          VIEW ALL
+                          
+                      
+                        </button>
+                        </Link>
+
+            </div>
+  </div>
+</div>
+</div>    
+     
     </>
   );
 };

@@ -18,10 +18,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
         </div>
         <hr/>
 
-        <div className='row'>
-            <div className='col-md-6'> A</div>
-            <div className='col-md-6'> B</div>
-        </div>
+       
      </div>
    </div>
    

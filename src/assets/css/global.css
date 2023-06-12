@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-Regular.ttf");
+  }
+ 
+  @font-face {
+    font-family: "Poppins-Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-Thin.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-ExtraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Poppins-Light.ttf");
+  }
+.main_heading 
+ h1,h2,h3,h4,h5,h6 {
+  font-family: "Poppins-Medium";
+  color: black;
+    
+  
+}
+
+p{
+    font-family: "Poppins-Light";
+    font-size: 13px; 
+   color:black
+       
+}
+.color {
+ 
+  color: white;
+}
+.colorblack {
+  color:black
+}
+
+
+.mrt70 {
+    margin-top: 70px;
+  }
+  .mrb70 {
+    margin-bottom: 70px;
+  }
+  .mrt50 {
+    margin-top: 50px;
+  }
+  .mrb50 {
+    margin-bottom: 50px;
+  }
+  .pdtop {
+    padding-top: 100px;
+  }
+  .pdbottom {
+    padding-bottom: 100px;
+  }
+  .pdtop50 {
+    padding-top: 50px;
+  }
+  .pdbottom50 {
+    padding-bottom: 50px;
+  }
+
+  .pdtop20 {
+    padding-top: 20px;
+  }
+  .pdbottom20 {
+    padding-bottom: 20px;
+  }
+  .banner-heading h1 p {
+    font-family: "Poppins-Bold";
+  
+  }

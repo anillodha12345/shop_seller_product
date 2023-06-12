@@ -51,6 +51,20 @@ export const cartreducer = (state = INIT_STATE, action) => {
     }
 }
 
-
+const intialState = {
+    blog: [],
+  };
+  
+  export const blogreducer = (state = intialState, { type, payload }) => {
+    switch (type) {
+      case "GET_BLOCK":
+        return { 
+            ...state,
+            blog : payload
+        };
+      default:
+        return state;
+    }
+  };
 
 

@@ -1,46 +1,36 @@
 import React from "react";
-
-import { TbMathGreater } from "react-icons/tb";
 import "./topstories.css";
+import { Card } from "react-bootstrap";
+import { BsArrowRight } from "react-icons/bs";
+import "../../assets/css/styles.css";
 
 const TopStories = (props) => {
   return (
     <>
-      <div className="wrapper_topstories mb-5">
-        <div className="container">
-          <div className="row pt-5">
-            <div className="col-md-10">
-              <div>
-                <img src={props.image} alt="no_image" width="100%" />
-                <div>
-                  <div className="text-black pt-4">
-                    <h5>{props.title}</h5>
-                  </div>
-                  <div>
-                    <span className="text-info">{props.date}</span>
-                  </div>
-                  <div className="pt-2 pb-2">
-                    <span
-                      className="text-secondary"
-                      style={{ fontSize: "13px" }}
-                    >
-                      {props.paragraph}
-                    </span>
-                  </div>
-                  <div className="pt-3 pb-2">
-                    <h6 style={{ fontSize: "13px" }}>
-                      {props.readmore}{" "}
-                      <span className="text-secondary">
-                        {" "}
-                        <TbMathGreater />
-                      </span>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="  pdtop20 col-md-3 cards-items1 ">
+        <Card
+          className="cards-items cards-image-stories"
+          style={{ width: "25rem" }}
+        >
+          <Card.Img variant="top" src={props.image} width="100%" height={280} />
+
+          <Card.Body>
+            <p className="card-text">
+              <Card.Text>{props.title}</Card.Text>
+            </p>
+            <h6>
+              <Card.Title>{props.date} </Card.Title>
+            </h6>
+            <p>
+              <Card.Text>{props.paragraph}</Card.Text>
+            </p>
+            <p>
+              <Card.Text>
+                {props.readmore} <BsArrowRight />{" "}
+              </Card.Text>
+            </p>
+          </Card.Body>
+        </Card>
       </div>
     </>
   );

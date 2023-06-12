@@ -41,8 +41,21 @@
 .slick-next:before {
     content: '\203A';
     font-size: 70px;
+    opacity: 0;
+}
+.slick-next:before:hover{
+    content: '\203A';
+    font-size: 70px;
+    opacity: 0.6;
 }
 .slick-prev:before {
     content: '\2039';
     font-size: 70px;
+    opacity: 0;
 }
+.slick-prev:before:hover{
+    content: '\2039';
+    font-size: 70px;
+    opacity: 0.6;
+}
+

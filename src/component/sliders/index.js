@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-// import Button from '@mui/material/Button';
-import Cardsdata from "./cardsdata";
+
+import { Cardsdata } from "./cardsdata";
+
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { useDispatch, useSelector } from "react-redux";
+
+import { useDispatch } from "react-redux";
 import { ADD } from "../../redux/action";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
-import { FcLike } from "react-icons/fc";
-import Newstore from "../newstore";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Col, Container, Row } from "react-bootstrap";
+
+import "../../assets/css/styles.css";
 
 const Sliders = () => {
   const [data, setData] = useState(Cardsdata);
@@ -21,20 +25,32 @@ const Sliders = () => {
 
   const send = (e) => {
     dispatch(ADD(e));
+    toast.success("successfully", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      // style: { background: '#00CC00' },
+      color: "white",
+    });
   };
   var settings = {
     dots: false,
     infinite: false,
     speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -59,75 +75,78 @@ const Sliders = () => {
 
   return (
     <>
-      <div className="slider_wrapper">
-        <div className="container mt-5 ">
-          <div className="row">
-          <div><h6 className="text-center">New Products</h6></div>
-            <div><h3 className="text-center">Shop The New Collection</h3></div>
-           
-            <Slider {...settings}  
-             autoplay= {true}
-             autoplaySpeed= {1000}
-            
-            >
+      <div className="mrt70">
+        <Container>
+          <Row>
+            <Col>
+              <h6 className="text-center colorblack">Best Sellers</h6>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h2 className="text-center colorblack">
+                Browse Through Our Best Selleres
+              </h2>
+            </Col>
+          </Row>
+
+          <Row className="pdtop50 pdbottom50 ">
+            <Slider {...settings} autoplay={true} autoplaySpeed={2000}>
               {data?.map((items, index) => {
                 return (
                   <>
-                 
-                    <div className="pt-5 mb-5">
-                      <div
-                        className="card mx-2 border- "
-                        style={{ height: "450px" }}
-                      >
-                      
-                      <img
+                    <div className="mrb50  col-md-3 cards-items1 ">
+                      <Card className="cards-items" style={{ width: "19rem" }}>
+                        <Card.Img
+                          variant="top"
                           src={items.imgdata}
-                          width="415px"
-                          height="250px"
-                          className=" border  "
-                          alt="..."
+                          width="100%"
+                          height={280}
                         />
-                       
-                        <div className="card-body ">
-                          <div className="row">
 
-                            
-                          <div className="col-md-6"> <p className="card-title text-secondary  ">{items.rname} </p></div>
-                          <div className="col-md-6 text-end"> <p className="card-title text-secondary  "><FcLike/> </p></div>
-                          </div>
-                          
-                          <p className="card-text  text-black">
-                            {items.address} 
-
+                        <Card.Body>
+                          <p className="card-text">
+                            <Card.Text>{items.address}</Card.Text>
                           </p>
-                          <p className="card-text  text-secondary ">
-                            Price : ${items.price}
-                          </p>
+                          <h6>
+                            <Card.Title>
+                              {" "}
+                              <Link
+                                to={`/cardsdetail/${items.id}`}
+                                onClick={() => send(items)}
+                                className="text-decoration-none text-black"
+                              >
+                                {items.rname}
+                              </Link>{" "}
+                            </Card.Title>
+                          </h6>
                           <p>
-                            <Button
+                            <Card.Text>Price : ${items.price}</Card.Text>
+                          </p>
 
-                              className="bg-black border-0 text-white col-lg-12 py-2" 
+                          <div className="card-bodies">
+                            <button
+                              className="addtocard border-0 text-white col-lg-12 py-2"
                               onClick={() => send(items)}
                             >
-                              ADD TO CARD
-                            </Button>
-                          </p>
-                        </div>
-                      </div>
-                    
+                              <span>ADD TO CARD</span>
+                            </button>
+                          </div>
+                        </Card.Body>
+                      </Card>
                     </div>
-                  
                   </>
                 );
               })}
             </Slider>
-           
-          </div>
-          <div className="text-center mb-5">
-          <Button variant="contained" className="bg-black text-white ">VIEW ALL</Button>
-          </div>
-         
-        </div>
+            <div className="banner-button text-center">
+              <Link to="/product">
+                <button class="  banner-button1 color rounded">VIEW ALL</button>
+              </Link>
+            </div>
+          </Row>
+        </Container>
+        <ToastContainer />
       </div>
     </>
   );

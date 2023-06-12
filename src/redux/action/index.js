@@ -19,3 +19,10 @@ export const ONE_REMOVE = (items) => {
         payload: items
     }
 }
+
+export const GET_BLOCK_DETAILS = (items) => {
+    return {
+        type:"GET_BLOCK",
+        payload:items
+    }
+}

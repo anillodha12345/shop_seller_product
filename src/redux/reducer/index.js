@@ -1,9 +1,10 @@
 import {combineReducers} from "redux";
-import { cartreducer } from "./reducer";
+import { blogreducer, cartreducer } from "./reducer";
 
 
 const rootReducer = combineReducers({
-    cartreducer
+    cartreducer,
+  blogreducer : blogreducer
 });
 
 

@@ -42,10 +42,10 @@
   }
 }
 
-body {
+/* body {
   background-color: red;
 
-}
+} */
 .carousel.carousel-slider .control-arrow {
   top: 0;
   color: #fff;
@@ -55,3 +55,7 @@ body {
   padding: 5px;
   background: black;
 }
+
+
+
+

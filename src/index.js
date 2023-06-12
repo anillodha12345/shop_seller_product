@@ -9,6 +9,8 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import '@coreui/coreui/dist/css/coreui.min.css'
 
+import "../src/assets/css/global.css"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
