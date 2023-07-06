@@ -28,10 +28,9 @@ function Footer() {
                   <div>
                     <div className="footer_address ">
                       <p className="color">
-                        TechInfini Solutions Pvt. Ltd. <br />
-                        402,Airen Heights, SchemeNo. 54, <br />
-                        Opposite C21 Mall,Indore, <br />
-                        Madhya Pradesh 452010.
+                      
+                        GuruNanak Colony ,Guna, <br />
+                        Madhya Pradesh 473001.
                       </p>
                       <p className="color">
                         <span>

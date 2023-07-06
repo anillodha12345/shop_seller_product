@@ -568,3 +568,8 @@ color: #b7472b !important;
 .header-bag {
   margin: 8px;
 }
+.logout {
+  border: none;
+  background: white;
+  padding-top: 0px;
+}

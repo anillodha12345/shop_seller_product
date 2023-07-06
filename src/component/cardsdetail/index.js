@@ -65,28 +65,18 @@ const CardsDetail = () => {
 
   return (
     <>
-
-
-
-
-
       {data?.map((items) => {
-    
-        
         return (
           <>
             <div className="container-fluid w-100">
               <div className="row">
                 <div className="col-md-6 cards_image ">
                   <div className="cards_image1 p-5">
-                   
                     <img src={items.imgdata} width="100%" height={500} />
-                    
-                    
                   </div>
                 </div>
                 <div className="col-md-6 card_image_details pt-5">
-                  <div className="card_image_details1 pt-5">
+                  <div className="card_image_details1 ">
                     <Table>
                       <tr>
                         <td className=" w-75  ">
@@ -96,13 +86,14 @@ const CardsDetail = () => {
                           </h2>
                           <h4 className="text-secondary p-1 m-1">
                             {" "}
-                            ${items.price}{" "}
+                            ${items.price}
                           </h4>
                           <p className="p-1 m-1">{items.paragraph}</p>
                           <p className="p-1 m-1"> {items.address} </p>
                           <p className="p-1 m-1">
-                            {" "}
-                            {items.price * items.qnty}{" "}
+                            <h4 className="text-secondary p-1 m-1">
+                              Price : {items.price * items.qnty}
+                            </h4>
                           </p>
                           <p className="p-1 m-1">
                             <b>Rating </b> :{" "}
@@ -181,7 +172,6 @@ const CardsDetail = () => {
               <ToastContainer />
               <CardDetailsDiscribe />
               <BestSellers />
-             
             </div>
           </>
         );

@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import { Table, Col, Form, Button, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Badge } from "@mui/material";
 import Menu from "@mui/material/Menu";
 import { useEffect, useState } from "react";
@@ -55,6 +55,16 @@ const Headers = (props) => {
     total();
   }, [total]);
 
+  const navigate =  useNavigate()
+
+
+  const HandleLogout = () => {
+    localStorage.clear();
+
+    navigate("/");
+
+  }
+
   return (
     <>
       <div>
@@ -67,7 +77,7 @@ const Headers = (props) => {
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse className="justify-content-center">
                 <Nav className="header-menu nav_anchor">
-                  <Link to="/" className="nav-link  ">
+                  <Link to="/home" className="nav-link  ">
                     Home
                   </Link>
                   <Link to="/about" className="nav-link ">
@@ -98,7 +108,7 @@ const Headers = (props) => {
                   </Form>
                 </Col>
 
-                <Col className="pt-1 d-flex">
+                <Col className="pt-1 d-flex justify-content-end">
                   <Badge
                     badgeContent={getdata.length}
                     color="primary"
@@ -112,21 +122,15 @@ const Headers = (props) => {
                     <BsBag size="25" />
                   </Badge>
 
-                  <Dropdown>
-                    <Dropdown.Toggle>
-                      <FaUserCircle size="25" />
-                    </Dropdown.Toggle>
+                  <button onClick={HandleLogout} className="logout">
 
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                      <Dropdown.Item href="#/action-2">
-                        Another action
-                      </Dropdown.Item>
-                      <Dropdown.Item href="#/action-3">
-                        Something else
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
+                 
+                  Logout
+
+                  </button>
+
+                {/* <NavLink to="/" className="text text-decoration-none text-black "> Logout</NavLink> */}
+       
                 </Col>
               </Row>
             </Container>

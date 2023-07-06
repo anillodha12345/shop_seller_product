@@ -14,6 +14,7 @@ import TopBar from "./component/layout/topbar";
 import Headers from "./component/layout/header";
 import Blog from "./pages/blog/blog";
 import BlogDetails from "./component/blogdetails/blogdetail";
+import Login from "./component/login/login";
 
 const App = () => {
   return (
@@ -22,8 +23,11 @@ const App = () => {
         <TopBar />
         <Headers />
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <Routes> 
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home/>} />
+         
+
           <Route path="/product" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
