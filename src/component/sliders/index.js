@@ -105,9 +105,9 @@ const Sliders = () => {
                         />
 
                         <Card.Body>
-                          <p className="card-text">
+                          {/* <p className="card-text">
                             <Card.Text>{items.address}</Card.Text>
-                          </p>
+                          </p> */}
                           <h6>
                             <Card.Title>
                               {" "}

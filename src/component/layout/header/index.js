@@ -18,6 +18,7 @@ import { BsBag } from "react-icons/bs";
 import "../../../assets/css/styles.css";
 import { FaUserCircle } from "react-icons/fa";
 import Dropdown from "react-bootstrap/Dropdown";
+import { Cardsdata } from "../../sliders/cardsdata";
 
 const Headers = (props) => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -65,6 +66,24 @@ const Headers = (props) => {
 
   }
 
+
+  const [APIData, setAPIData] = useState(Cardsdata)
+  const [searchInput, setSearchInput] = useState('');
+  const [filteredResults, setFilteredResults] = useState([]);
+
+  const searchItems = (searchValue) => {
+    setSearchInput(searchValue);
+    if (searchInput !== '') {
+      const filteredData = APIData.filter((item) => {
+        return Object.values(item).join('').toLowerCase().includes(searchInput.toLowerCase());
+      });
+      setAPIData(filteredData);
+    } else {
+      setAPIData(APIData);
+    }
+  };
+
+
   return (
     <>
       <div>
@@ -98,12 +117,19 @@ const Headers = (props) => {
               <Row>
                 <Col md={8}>
                   <Form className="d-flex">
-                    <Form.Control
+                    {/* <Form.Control
                       type="search"
                       placeholder="Search"
                       className="me-2 rounded-0"
                       aria-label="Search"
-                    />
+
+                    /> */}
+
+<input icon='search' type="text"
+                placeholder='Search...'
+                onChange={(e) => searchItems(e.target.value)}
+            />
+
                     <Button className="rounded-0 header-search">Search</Button>
                   </Form>
                 </Col>
@@ -143,7 +169,7 @@ const Headers = (props) => {
                 "aria-labelledby": "basic-button",
               }}
             >
-              {getdata.length ? (
+              {APIData.length ? (
                 <div className="card_details ">
                   <Table>
                     <thead>
@@ -159,7 +185,7 @@ const Headers = (props) => {
                             <tr>
                               <td>
                                 <NavLink to={`/cardsdetail/${items.id}`}>
-                                  <img src={items.imgdata} />
+                                  <img src={items.imgdata}       style={{ width: "8rem", height: "8rem" }}/>
                                 </NavLink>
                               </td>
 
@@ -178,6 +204,7 @@ const Headers = (props) => {
                                 <p>
                                   {" "}
                                   <MdDelete
+                                  size="30"
                                     onClick={() => Delete(items.id)}
                                   />{" "}
                                 </p>
@@ -193,11 +220,25 @@ const Headers = (props) => {
                   </Table>
                 </div>
               ) : (
-                <div className=" d-flex justify-content-center   ">
-                  <AiOutlineClose />
-                  <p>Your Carts is Empty</p>
-                  <img src={cardgif} />
-                </div>
+
+                <div className=" mt-3 mb-2 card_details d-flex justify-content-center  card_style " style={{width:"360px"}}>
+                <AiOutlineClose
+                  className="smallclose  card_position"
+                  onClick={handleClose}
+                />
+                <p  className="mt-2 mx-5" style={{ fontSize: 18 }}> Your Card Is Empty</p>
+                <img
+                  src={cardgif}
+                  className="emptycart_img"
+                  style={{ width: "3rem", height:"3rem", }}
+                />
+              </div>
+
+                // <div className=" d-flex justify-content-center   "   style={{width:"360px"}}>
+                //   <AiOutlineClose />
+                //   <p>Your Carts is Empty</p>
+                //   <img src={cardgif} />
+                // </div>
               )}
             </Menu>
           </Navbar>

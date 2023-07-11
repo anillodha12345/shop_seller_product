@@ -1,14 +1,11 @@
 export const  Cardsdata = [
     {
         id: 1,
-        rname: "Sneakers Print Leopard",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-600x650.jpg" ,
+        rname: "Massala Theoryy",
+        imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
         images:[
             
-            "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-542x542.jpg",
-            "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-gallery-1.jpg",
-            "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-gallery-2-542x542.jpg",
-           
+          
         ],
         
     
@@ -22,8 +19,8 @@ export const  Cardsdata = [
     },
     {
         id: 2,
-        rname: "Jumper Futura",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3.jpg",
+        rname: "Jugaadi Adda",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/19295245/089cbcf1d3307542c72f77272556b28b_o2_featured_v2.jpg?output-format=webp",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3-600x650.jpg",
@@ -42,8 +39,8 @@ export const  Cardsdata = [
     },
     {
         id: 3,
-        rname: "  Print Leopard Sandals",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6.jpg",
+        rname: "La Milano Pizzeria",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/19708611/10f90d4a69678d98662514d173b29665_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6-gallery-2-600x650.jpg           ",
@@ -60,8 +57,8 @@ export const  Cardsdata = [
     },
     {
         id: 4,
-        rname: "Sweatsuit Grey Heather",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5.jpg",
+        rname: "Momoman",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5-600x650.jpg           ",
@@ -79,8 +76,8 @@ export const  Cardsdata = [
     },
     {
         id: 5,
-        rname: "Skater Black Sneakers",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1.jpg",
+        rname: "Jassi De Parathe",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1-gallery-1-600x650.jpg           ",
@@ -101,8 +98,8 @@ export const  Cardsdata = [
     },
     {
         id: 6,
-        rname: "Tote Cream Bag",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2.jpg",
+        rname: "Anjoy Latenight Meals",
+        imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2-600x650.jpg",
@@ -119,8 +116,8 @@ export const  Cardsdata = [
     },
     {
         id: 7,
-        rname: "White x Gold Sneaker",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12.jpg",
+        rname: "Hocco Eatery",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110155/811c01a5430d50d3260f77917da99e12_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12-100x108.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12-100x108.jpg",
@@ -139,8 +136,8 @@ export const  Cardsdata = [
     },
     {
         id: 8,
-        rname: "White x Black Backpack",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11.jpg",
+        rname: "Chai Wai",
+        imgdata: "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
         images:[
             "  https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11-gallery-1-600x650.jpg",
@@ -162,8 +159,8 @@ export const  Cardsdata = [
     },
     {
         id: 9,
-        rname: "Tech Wristwatch",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-8.jpg",
+        rname: "HL Frankie",
+        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-gallery-1-600x650.jpg",
@@ -181,8 +178,8 @@ export const  Cardsdata = [
     },
     {
         id: 10,
-        rname: "Tech Wristwatch",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10.jpg",
+        rname: "Momoman",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-gallery-1-600x650.jpg",
@@ -200,8 +197,8 @@ export const  Cardsdata = [
     },
     {
         id: 11,
-        rname: "Striped Slip-On",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9.jpg",
+        rname: "HL Frankie",
+        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9-gallery-1-600x650.jpg",
@@ -220,8 +217,8 @@ export const  Cardsdata = [
     },
     {
         id: 12,
-        rname: "Grey Wool Sweater",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4.jpg",
+        rname: "Chai Wai",
+        imgdata: "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4-gallery-1-600x650.jpg",
@@ -239,8 +236,8 @@ export const  Cardsdata = [
     },
     {
         id: 13,
-        rname: "Sneakers Print Leopard",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-600x650.jpg",
+        rname: "La Milano Pizzeria",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/19708611/10f90d4a69678d98662514d173b29665_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-542x542.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-7-gallery-1.jpg",
@@ -257,8 +254,8 @@ export const  Cardsdata = [
     },
     {
         id: 14,
-        rname: "Jumper Futura",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3.jpg",
+        rname: "HL Frankie",
+        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-3-600x650.jpg",
@@ -276,8 +273,8 @@ export const  Cardsdata = [
     },
     {
         id: 15,
-        rname: "  Print Leopard Sandals",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6.jpg",
+        rname: "HL Frankie",
+        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-6-gallery-2-600x650.jpg           ",
@@ -294,8 +291,8 @@ export const  Cardsdata = [
     },
     {
         id: 16,
-        rname: "Sweatsuit Grey Heather",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5.jpg",
+        rname: "Chai Wai",
+        imgdata: "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-5-600x650.jpg           ",
@@ -313,8 +310,8 @@ export const  Cardsdata = [
     },
     {
         id: 17,
-        rname: "Skater Black Sneakers",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1.jpg",
+        rname: "Anjoy Latenight Meals",
+        imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-1-gallery-1-600x650.jpg           ",
@@ -333,8 +330,8 @@ export const  Cardsdata = [
     },
     {
         id: 18,
-        rname: "Tote Cream Bag",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2.jpg",
+        rname: "Momoman",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-2-600x650.jpg",
@@ -351,8 +348,8 @@ export const  Cardsdata = [
     },
     {
         id: 19,
-        rname: "White x Gold Sneaker",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12.jpg",
+        rname: "Massala Theoryy",
+        imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
         images:[
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12-100x108.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-12-100x108.jpg",
@@ -369,8 +366,8 @@ export const  Cardsdata = [
     },
     {
         id: 20,
-        rname: "White x Black Backpack",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11.jpg",
+        rname: "Jugaadi Adda",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/19295245/089cbcf1d3307542c72f77272556b28b_o2_featured_v2.jpg?output-format=webp",
         images:[
             "  https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-11-gallery-1-600x650.jpg",
@@ -388,8 +385,8 @@ export const  Cardsdata = [
     },
     {
         id: 21,
-        rname: "Tech Wristwatch",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-8.jpg",
+        rname: "Hocco Eatery",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110155/811c01a5430d50d3260f77917da99e12_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10-gallery-1-600x650.jpg",
@@ -407,8 +404,8 @@ export const  Cardsdata = [
     },
     {
         id: 22,
-        rname: "Tech Wristwatch",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-10.jpg",
+        rname: "Anjoy Latenight Meals",
+        imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
         address: "Accessories , Men , Sportswear",
         delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
         paragraph: " Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.",
@@ -419,8 +416,8 @@ export const  Cardsdata = [
     },
     {
         id: 23,
-        rname: "Striped Slip-On",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9.jpg",
+        rname: "Jassi De Parathe",
+        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-9-gallery-1-600x650.jpg",
@@ -439,8 +436,8 @@ export const  Cardsdata = [
     },
     {
         id: 24,
-        rname: "Grey Wool Sweater",
-        imgdata: "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4.jpg",
+        rname: "Anjoy Latenight Meals",
+        imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
         images:[
             " https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4-600x650.jpg",
             "https://suprema.qodeinteractive.com/wp-content/uploads/2016/02/shop-standard-4-gallery-1-600x650.jpg",
@@ -616,23 +613,24 @@ export const  Blogsdata  = [
 },
 {
     id : 19,
-    image:"https://fastly.picsum.photos/id/445/4256/2819.jpg?hmac=99qT1IPidZrzaXTgG1ixRRVwElWXUlNepU2k692G44c",
-    title:"FASHION, PHOTOGRAPHY",
+    rname: "Massala Theoryy",
+        imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
     heading : "12 Awesome Fashion Trend in For Winter",
       paragraph:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...  Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis.Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis",
     author:"KELLY GORDONOCTOBER 5, 2018",
 },
 {
     id : 20,
-    image:"https://a6e8z9v6.stackpathcdn.com/akea/homepage2/wp-content/uploads/2018/11/erik-mclean-1121561-unsplash-400x334.jpg",
-    title:"PHOTOGRAPHY",
+    rname: "Jugaadi Adda",
+    imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/19295245/089cbcf1d3307542c72f77272556b28b_o2_featured_v2.jpg?output-format=webp",
     heading : "Taking Photo In The Middle Of Nature",
       paragraph:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...  Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis.Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis",
     author:"JAMES SMITHJULY 14, 2018",
 },
 {
     id : 21,
-    image:"https://a6e8z9v6.stackpathcdn.com/akea/homepage2/wp-content/uploads/2018/11/pexels-photo-25284-1300x530.jpg",
+    rname: "Momoman",
+    imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
     title:"TRAVEL",
     heading : "8 Ways To Travel Like a Pro",
       paragraph:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...  Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis.Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis",
@@ -640,7 +638,17 @@ export const  Blogsdata  = [
 },
 {
     id : 22,
-    image:"https://a6e8z9v6.stackpathcdn.com/akea/homepage2/wp-content/uploads/2018/11/flaunter-com-237609-unsplash-400x334.jpg",
+    rname: "Momoman",
+    imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
+    title:"FASHION, PHOTOGRAPHY",
+    heading : "Overall of Fashion Week in Madrid",
+      paragraph:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...  Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis.Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis",
+   author:" JANE SMITHSEPTEMBER 19, 2018",
+},
+{
+    id : 23,
+    rname: "Momoman",
+    imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
     title:"FASHION, PHOTOGRAPHY",
     heading : "Overall of Fashion Week in Madrid",
       paragraph:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated...  Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis.Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis. Morbi volutpat nisi a ligula vestibulum placerat. Suspendisse venenatis pulvinar nibh sed convallis",

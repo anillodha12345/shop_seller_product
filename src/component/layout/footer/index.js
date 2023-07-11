@@ -17,7 +17,7 @@ import "../../../assets/css/styles.css";
 function Footer() {
   return (
     <>
-      <section className="footer_bg footer-wrapper color  mrt70">
+      <section className="footer_bg footer-wrapper color  ">
         <div>
           <Container fluid>
             <Row className="pdtop50 ">

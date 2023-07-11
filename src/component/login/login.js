@@ -12,7 +12,7 @@ const Login = () => {
   function handleClick(e) {
     e.preventDefault();
 
-    if (email === "seller1@gmail.com" && password === "12345") {
+    if (email === "anillodha.guna21@gmail.com" && password === "12345") {
       setEmail(localStorage.setItem("email", email));
       setPassword(localStorage.setItem("password", password));
       setLogin(localStorage.setItem("login", true));
@@ -64,22 +64,25 @@ const Login = () => {
                                 onChange={(e) => setPassword(e.target.value)}
                               />
                             </div>
-                            <div className="form-group">
-                              <div className="custom-control custom-checkbox small">
-                                <input
+                           
+                             
+                                {/* <input
                                   type="checkbox"
                                   className="custom-control-input"
                                   id="customCheck"
-                                />
-                                <label
-                                  className="custom-control-label"
-                                  for="customCheck"
-                                >
-                                  Remember Me
-                                </label>
-                              </div>
-                            </div>
-                            <Link className="btn btn-primary btn-user btn-block">
+                                /> */}
+                                {/* <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+  <label class="form-check-label" for="flexCheckDefault">
+    
+  Remember Me
+  </label>
+</div> */}
+                              
+                              
+                            
+                   
+                            <Link className=" btn-user btn-block painting-sellers-login">
                               Login
                             </Link>
                           </form>

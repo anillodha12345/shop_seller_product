@@ -69,13 +69,13 @@ const AllProducts = () => {
                         variant="top"
                         src={items.imgdata}
                         width="100%"
-                        height={150}
+                        height={280}
                       />
 
                       <Card.Body>
-                        <p className="card-text">
+                        {/* <p className="card-text">
                           <Card.Text>{items.address}</Card.Text>
-                        </p>
+                        </p> */}
                         <h6>
                           <Card.Title>
                             {" "}
